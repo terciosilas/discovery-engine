@@ -26,15 +26,18 @@
 ## Fase 1 -- Ingestao e Mapeamento
 
 - [x] Construir `src/ingestion/pubmed.py` (API E-utilities do PubMed)
-- [x] Construir `src/ingestion/semantic_scholar.py` (API Semantic Scholar)
+- [x] Construir `src/ingestion/semantic_scholar.py` (API Semantic Scholar + batch)
 - [x] Construir `src/ingestion/unpaywall.py` (verificacao de licenca)
-- [ ] Construir `src/ingestion/drugbank.py` (dados de medicamentos)
-- [ ] Construir `src/ingestion/chembl.py` (atividade biologica)
-- [ ] Primeira busca: top 500 papers "proteomics aging longevity" (2020-2026)
-- [ ] Primeira busca: top 500 papers "drug repurposing aging" (2020-2026)
-- [ ] Gerar mapa de conceitos (grafo de termos/proteinas/drogas)
-- [ ] Identificar gaps na literatura
-- [ ] Relatorio Fase 1: "Mapa do Terreno"
+- [x] Construir `src/ingestion/drugbank.py` (DrugBank vocab + Open Targets)
+- [x] Construir `src/ingestion/chembl.py` (API ChEMBL: compostos, alvos, atividades)
+- [x] Construir `src/ingestion/enriquecedor.py` (enriquecimento S2 com checkpoint)
+- [x] Construir `src/ingestion/filtro.py` (criterios de inclusao/exclusao)
+- [x] Construir `src/ingestion/orquestrador.py` (pipeline completo de busca)
+- [x] Busca em escala: 6 queries, 485 brutos, 376 aceitos
+- [x] Enriquecer com Semantic Scholar (356/376 encontrados, 94.7%)
+- [x] Identificar gaps na literatura
+- [x] Relatorio Fase 1: "Mapa do Terreno"
+- [x] Dados curados: 13 geroprotetores + 15 alvos-chave do envelhecimento
 
 ## Fase 2 -- Analise e Cruzamento
 

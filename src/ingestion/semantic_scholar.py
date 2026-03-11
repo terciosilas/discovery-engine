@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
 
-# Rate limit: 1 req/s sem key
-MIN_INTERVAL_S = 1.1
+# Rate limit: 1 req/s sem key (usar 1.5s para margem de seguranca)
+MIN_INTERVAL_S = 1.5
 
 
 @dataclass
@@ -174,7 +174,7 @@ class SemanticScholarClient:
         logger.info("S2 search concluida: %d papers coletados", len(papers))
         return papers
 
-    def get_paper(self, paper_id: str) -> S2Paper | None:
+    def get_paper(self, paper_id: str, _retries: int = 3) -> S2Paper | None:
         """Busca um paper especifico por ID (DOI, PMID, S2 ID, etc.).
 
         Args:
@@ -182,6 +182,7 @@ class SemanticScholarClient:
                 - DOI: "DOI:10.1234/example"
                 - PMID: "PMID:12345678"
                 - S2 ID: "649def34f8be52c8b66281af98ae884c09aef38b"
+            _retries: Tentativas restantes em caso de 429.
 
         Returns:
             S2Paper ou None se nao encontrado.
@@ -197,12 +198,76 @@ class SemanticScholarClient:
             if response.status_code == 404:
                 logger.debug("Paper nao encontrado no S2: %s", paper_id)
                 return None
+            if response.status_code == 429 and _retries > 0:
+                wait = 5 * (4 - _retries)  # 5s, 10s, 15s
+                logger.warning("S2 rate limit (429) para %s. Aguardando %ds...", paper_id[:40], wait)
+                time.sleep(wait)
+                return self.get_paper(paper_id, _retries=_retries - 1)
             response.raise_for_status()
         except requests.RequestException as e:
             logger.error("Erro no fetch S2: %s | ID: %s", e, paper_id)
             return None
 
         return self._parse_paper(response.json())
+
+    def get_papers_batch(self, paper_ids: list[str], batch_size: int = 100) -> dict[str, S2Paper]:
+        """Busca multiplos papers em batch (muito mais eficiente que individual).
+
+        Usa o endpoint POST /paper/batch que aceita ate 500 IDs por chamada.
+
+        Args:
+            paper_ids: Lista de identificadores (DOI:..., PMID:..., ou S2 ID).
+            batch_size: Tamanho de cada batch (max 500).
+
+        Returns:
+            Dict de paper_id_original -> S2Paper (somente encontrados).
+        """
+        results: dict[str, S2Paper] = {}
+        batch_size = min(batch_size, 500)
+
+        for i in range(0, len(paper_ids), batch_size):
+            batch = paper_ids[i:i + batch_size]
+            self._rate_limit()
+
+            try:
+                response = self.session.post(
+                    f"{BASE_URL}/paper/batch",
+                    json={"ids": batch},
+                    params={"fields": self.PAPER_FIELDS},
+                    timeout=60,
+                )
+                if response.status_code == 429:
+                    logger.warning("S2 batch rate limit. Aguardando 10s...")
+                    time.sleep(10)
+                    # Retry este batch
+                    self._rate_limit()
+                    response = self.session.post(
+                        f"{BASE_URL}/paper/batch",
+                        json={"ids": batch},
+                        params={"fields": self.PAPER_FIELDS},
+                        timeout=60,
+                    )
+                response.raise_for_status()
+            except requests.RequestException as e:
+                logger.error("Erro no batch S2: %s | Batch %d-%d", e, i, i + len(batch))
+                continue
+
+            data_list = response.json()
+            for original_id, paper_data in zip(batch, data_list):
+                if paper_data is not None:
+                    paper = self._parse_paper(paper_data)
+                    if paper:
+                        results[original_id] = paper
+
+            logger.info(
+                "S2 batch %d-%d: %d/%d encontrados",
+                i, i + len(batch),
+                sum(1 for d in data_list if d is not None),
+                len(batch),
+            )
+
+        logger.info("S2 batch total: %d/%d encontrados", len(results), len(paper_ids))
+        return results
 
     def get_paper_by_doi(self, doi: str) -> S2Paper | None:
         """Busca paper por DOI.
