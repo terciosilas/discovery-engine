@@ -12,7 +12,7 @@
 - [x] Definir governanca e etica
 - [x] Criar estrutura de pastas
 - [x] Criar documentos fundacionais (CLAUDE.md, STATE, DECISIONS, BACKLOG, PMO)
-- [~] Configurar Google Colab (Tercio em andamento)
+- [x] Configurar Google Colab (GPU T4 + Drive montado)
 - [x] Criar repo privado no GitHub (`discovery-engine`)
 - [x] Configurar `.gitignore` e `.env.example`
 - [x] Criar `src/core/bibliography.py` (gestao BibTeX + licencas + DOI)
@@ -25,9 +25,9 @@
 
 ## Fase 1 -- Ingestao e Mapeamento
 
-- [ ] Construir `src/ingestion/pubmed.py` (API E-utilities do PubMed)
-- [ ] Construir `src/ingestion/semantic_scholar.py` (API Semantic Scholar)
-- [ ] Construir `src/ingestion/unpaywall.py` (verificacao de licenca)
+- [x] Construir `src/ingestion/pubmed.py` (API E-utilities do PubMed)
+- [x] Construir `src/ingestion/semantic_scholar.py` (API Semantic Scholar)
+- [x] Construir `src/ingestion/unpaywall.py` (verificacao de licenca)
 - [ ] Construir `src/ingestion/drugbank.py` (dados de medicamentos)
 - [ ] Construir `src/ingestion/chembl.py` (atividade biologica)
 - [ ] Primeira busca: top 500 papers "proteomics aging longevity" (2020-2026)

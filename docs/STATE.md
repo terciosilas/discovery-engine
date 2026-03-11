@@ -4,62 +4,66 @@
 
 ## Fase Atual
 
-**Fase 0 -- Fundacao (60% concluida)**
+**Fase 0 -- Fundacao (100% concluida)**
+**Fase 1 -- Ingestao e Mapeamento (20% concluida)**
 
 ## O que foi feito
 
 ### Sessao #2 (2026-03-10)
-- Instalado GitHub CLI (`gh`) e autenticado como `terciosilas`
-- Criado repo privado: github.com/terciosilas/discovery-engine
-- Inicializado git local, primeiro commit e push
-- Criado `.gitignore` (Python, data, outputs, secrets) e `.env.example`
-- Construido `src/core/integrity.py` -- SHA-256 para rastreabilidade
-- Construido `src/core/audit.py` -- Logger append-only JSON (GOVERNANCA.md)
-- Construido `src/core/bibliography.py` -- Gestao BibTeX + licencas + PDFs
-- Criado `config/search_queries.yaml` -- 6 queries iniciais para PubMed
-- Criado `config/inclusion_criteria.yaml` -- Criterios pre-definidos com controles positivos/negativos
-- Criado `tests/test_core.py` -- 23 testes unitarios (100% passando)
-- Tercio abriu Google Colab (em portugues), sendo guiado na configuracao
+- Instalado GitHub CLI (gh v2.87.3) e autenticado como terciosilas
+- Criado repo privado: github.com/terciosilas/discovery-engine (4 commits)
+- Construido src/core/integrity.py -- SHA-256 para rastreabilidade
+- Construido src/core/audit.py -- Logger append-only JSON
+- Construido src/core/bibliography.py -- Gestao BibTeX + licencas
+- Configurado Google Colab (Tercio primeira vez): GPU T4, Drive montado
+- Instalado Google Drive para Desktop (G:\Meu Drive)
+- **MIGRADO projeto do OneDrive para Google Drive** (DEC-006)
+  - G:\Meu Drive\Discovery_Engine (local)
+  - /content/drive/MyDrive/Discovery_Engine (Colab)
+- Construido src/ingestion/pubmed.py -- Cliente E-utilities API
+- Construido src/ingestion/unpaywall.py -- Verificacao de licenca OA
+- Construido src/ingestion/semantic_scholar.py -- Citacoes e influencia
+- **Primeira busca exploratoria validada:**
+  - 20 papers do PubMed ("proteomics aging longevity", 2020+)
+  - Licencas verificadas: 8 OA, 12 restritos
+  - 20 referencias registradas em bibliography/
+  - Audit log gerado
+- Configs: search_queries.yaml + inclusion_criteria.yaml
+- 40 testes unitarios passando (23 core + 17 ingestao)
 
 ### Sessao #1 (2026-03-10)
-- Definido tema: Proteinas/Longevidade + Drug Repurposing com IA
-- Pesquisa exploratoria em 5 campos
-- Definida infraestrutura: OneDrive + Google Colab + Claude Code local
-- Definida governanca: espelho do ERP (audit_logs, SHA-256, bibliography, etica)
-- Criada estrutura de pastas no OneDrive
-- Criados documentos fundacionais (CLAUDE.md, STATE, DECISIONS, BACKLOG, PMO)
-- Declaracoes eticas criadas (uso de IA + fontes)
+- Definido tema, infraestrutura, governanca
+- Criada estrutura de pastas e documentos fundacionais
 
 ## Raciocinio em andamento
 
-- Combinamos proteomica de longevidade com drug repurposing porque eh **100% computacional**
-  e tem datasets publicos imensos (UK Biobank, DrugBank, GenAge, HALL, ChEMBL)
-- A abordagem eh meta-analise computacional com ML/IA -- nao experimental
-- O diferencial: usar IA para cruzar dados proteomicos de envelhecimento com bases
-  de medicamentos existentes, identificando candidatos em escala sobre-humana
-- Nao precisamos de laboratorio -- validacao computacional + estatistica
-- Modulos core prontos e testados -- base solida para construir pipelines de ingestao
-- Proximo foco: pipeline PubMed (ingestao real de dados)
+- Pipeline PubMed -> Unpaywall -> Bibliography esta funcional e validado
+- Dos 20 papers, 8 sao OA mas so 2 permitem armazenamento de PDF (cc-by)
+- Maioria dos papers de alto impacto (Nature, Cell) usa cc-by-nc-nd, que nao permite redistribuicao
+- Para a pesquisa, isso nao eh problema: usamos metadados + abstracts (fair use)
+- Semantic Scholar ainda nao foi usado em producao, mas o modulo esta pronto
+- Proximo passo eh escalar: buscar 500+ papers com todas as queries definidas
 
 ## Bloqueios atuais
 
-- Google Colab: Tercio esta configurando (primeira vez)
-- Nota: Colab em portugues -- menus traduzidos (ex: "Ambiente de execucao" em vez de "Runtime")
+- Nenhum
 
 ## Proximo passo concreto
 
-1. **Finalizar configuracao Colab** -- Tercio precisa montar Drive e testar GPU
-2. **Construir `src/ingestion/pubmed.py`** -- Pipeline de busca via E-utilities API
-3. **Primeira busca exploratoria** -- Top 500 papers "proteomics aging longevity" (2020-2026)
-4. **Construir `src/ingestion/unpaywall.py`** -- Verificacao de licenca antes de armazenar PDFs
+1. **Busca em escala** -- Executar todas as 6 queries do search_queries.yaml (500 papers cada)
+2. **Enriquecer com Semantic Scholar** -- Adicionar citation_count e influential_citations
+3. **Aplicar criterios de inclusao/exclusao** do inclusion_criteria.yaml
+4. **Gerar relatorio Fase 1** -- Estatisticas, mapa de conceitos, gaps identificados
+5. **Construir drugbank.py e chembl.py** -- Bases de medicamentos
 
 ## Contexto tecnico ativo
 
 - **Maquina:** i5-1135G7, 24GB RAM, 18GB disco C: livre
-- **OneDrive:** 785 GB livres no plano 1TB
-- **Google Colab:** Em configuracao (Tercio primeira vez)
-- **GitHub:** terciosilas/discovery-engine (PRIVADO, branch main, 2 commits)
-- **GitHub CLI:** gh v2.87.3 instalado e autenticado
-- **Python:** 3.14.2 local
-- **Testes:** 23 passando (pytest)
-- **APIs:** PubMed (gratis, sem key), Semantic Scholar (gratis, key opcional)
+- **Google Drive:** G:\Meu Drive (2 TB, 1.35 TB livres)
+- **Google Colab:** Configurado, GPU T4, Drive montado
+- **GitHub:** terciosilas/discovery-engine (privado, 4 commits, branch main)
+- **GitHub CLI:** gh v2.87.3 autenticado
+- **Python:** 3.14.2 local, requests instalado
+- **Testes:** 40 passando (pytest)
+- **Acervo:** 20 referencias, 8 OA, 0 PDFs armazenados
+- **APIs:** PubMed (testado), Unpaywall (testado), Semantic Scholar (modulo pronto)
