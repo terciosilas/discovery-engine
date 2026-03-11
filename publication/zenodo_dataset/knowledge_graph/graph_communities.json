@@ -1,0 +1,752 @@
+{
+  "n_comunidades": 51,
+  "comunidades": [
+    {
+      "id": 0,
+      "tamanho": 85,
+      "tipos": {
+        "disease": 48,
+        "drug": 33,
+        "protein": 4
+      },
+      "proteinas": [
+        "PIK3R1",
+        "TERT",
+        "MTOR",
+        "IGF1"
+      ],
+      "drogas_exemplo": [
+        "GSK-1059615",
+        "VELIGROTUG",
+        "IZORLISIB",
+        "DALOTUZUMAB",
+        "SAMOTOLISIB",
+        "APITOLISIB",
+        "PAXALISIB",
+        "PICTILISIB",
+        "CC-115",
+        "BMS-754807"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 1,
+      "tamanho": 75,
+      "tipos": {
+        "disease": 50,
+        "drug": 22,
+        "protein": 3
+      },
+      "proteinas": [
+        "NAMPT",
+        "BCL2",
+        "TP53"
+      ],
+      "drogas_exemplo": [
+        "OBATOCLAX",
+        "IDASANUTLIN",
+        "OBLIMERSEN",
+        "IMETELSTAT",
+        "VOXTALISIB",
+        "DAPORINAD",
+        "CENERSEN SODIUM",
+        "BUPARLISIB",
+        "APG-2575",
+        "CENERSEN"
+      ],
+      "geroprotetores": [
+        "NAVITOCLAX"
+      ]
+    },
+    {
+      "id": 2,
+      "tamanho": 71,
+      "tipos": {
+        "protein": 4,
+        "drug": 35,
+        "disease": 32
+      },
+      "proteinas": [
+        "E2F1",
+        "PPARG",
+        "SIRT1",
+        "INSR"
+      ],
+      "drogas_exemplo": [
+        "BALAGLITAZONE",
+        "INSULIN DETEMIR",
+        "MESALAMINE",
+        "INSULIN HUMAN, ISOPHANE",
+        "INSULIN PORK",
+        "CHIGLITAZAR",
+        "MURAGLITAZAR",
+        "INSULIN DEGLUDEC",
+        "TROGLITAZONE",
+        "ROSIGLITAZONE MALEATE"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 3,
+      "tamanho": 68,
+      "tipos": {
+        "disease": 33,
+        "drug": 33,
+        "protein": 2
+      },
+      "proteinas": [
+        "FLT1",
+        "FGFR1"
+      ],
+      "drogas_exemplo": [
+        "SORAFENIB TOSYLATE",
+        "LENVATINIB MESYLATE",
+        "ZSTK-474",
+        "REGORAFENIB",
+        "SUNITINIB MALATE",
+        "LENVATINIB",
+        "AXITINIB",
+        "INFIGRATINIB PHOSPHATE",
+        "VANDETANIB",
+        "INFIGRATINIB"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 4,
+      "tamanho": 61,
+      "tipos": {
+        "disease": 51,
+        "protein": 2,
+        "drug": 8
+      },
+      "proteinas": [
+        "GHR",
+        "IGF1R"
+      ],
+      "drogas_exemplo": [
+        "PEGVISOMANT",
+        "SOMATROGON",
+        "LONAPEGSOMATROPIN",
+        "SOMATROPIN",
+        "SOMAPACITAN",
+        "MECASERMIN",
+        "TEPROTUMUMAB",
+        "MECASERMIN RINFABATE"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 5,
+      "tamanho": 33,
+      "tipos": {
+        "disease": 25,
+        "drug": 6,
+        "protein": 2
+      },
+      "proteinas": [
+        "HMGB1",
+        "IL6"
+      ],
+      "drogas_exemplo": [
+        "MRA 003 US",
+        "SIRUKUMAB",
+        "CLAZAKIZUMAB",
+        "OLOKIZUMAB",
+        "CD24FC",
+        "SILTUXIMAB"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 6,
+      "tamanho": 22,
+      "tipos": {
+        "protein": 2,
+        "disease": 14,
+        "drug": 6
+      },
+      "proteinas": [
+        "NFE2L2",
+        "MAP3K5"
+      ],
+      "drogas_exemplo": [
+        "OMAVELOXOLONE",
+        "ISTIRATUMAB",
+        "BARDOXOLONE METHYL",
+        "SELONSERTIB",
+        "ZILTIVEKIMAB",
+        "LANIFIBRANOR"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 7,
+      "tamanho": 10,
+      "tipos": {
+        "drug": 3,
+        "disease": 6,
+        "protein": 1
+      },
+      "proteinas": [
+        "PRKAA1"
+      ],
+      "drogas_exemplo": [
+        "BEZAFIBRATE",
+        "PERHEXILINE",
+        "ACADESINE"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 8,
+      "tamanho": 8,
+      "tipos": {
+        "disease": 6,
+        "drug": 2
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "AXL-1717",
+        "VISTUSERTIB"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 9,
+      "tamanho": 3,
+      "tipos": {
+        "protein": 1,
+        "disease": 1,
+        "drug": 1
+      },
+      "proteinas": [
+        "HTT"
+      ],
+      "drogas_exemplo": [
+        "TOMINERSEN"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 10,
+      "tamanho": 3,
+      "tipos": {
+        "disease": 1,
+        "protein": 1,
+        "drug": 1
+      },
+      "proteinas": [
+        "EGR1"
+      ],
+      "drogas_exemplo": [
+        "BRIVOLIGIDE"
+      ],
+      "geroprotetores": []
+    },
+    {
+      "id": 11,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "AMPK"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 12,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "UBB"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 13,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "CDKN2A"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 14,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "APOE"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 15,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "FOXO3"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 16,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "CDKN1A"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 17,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "SIRT6"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 18,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "CAT"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 19,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "BECN1"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 20,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "BDNF"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 21,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "CDKN2B"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 22,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "SIRT3"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 23,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "GH1"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 24,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "KL"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 25,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "PTEN"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 26,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "FGF21"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 27,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "LMNA"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 28,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "FAS"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 29,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "FOXO1"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 30,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "ATG5"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 31,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "AIFM1"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 32,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "MSRA"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 33,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "RICTOR"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 34,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "PLCG2"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 35,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "SIN3A"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 36,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "RAD51"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 37,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "RAD52"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 38,
+      "tamanho": 1,
+      "tipos": {
+        "protein": 1
+      },
+      "proteinas": [
+        "UCP1"
+      ],
+      "drogas_exemplo": [],
+      "geroprotetores": []
+    },
+    {
+      "id": 39,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Rapamycin"
+      ],
+      "geroprotetores": [
+        "Rapamycin"
+      ]
+    },
+    {
+      "id": 40,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Metformin"
+      ],
+      "geroprotetores": [
+        "Metformin"
+      ]
+    },
+    {
+      "id": 41,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Acarbose"
+      ],
+      "geroprotetores": [
+        "Acarbose"
+      ]
+    },
+    {
+      "id": 42,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Dasatinib"
+      ],
+      "geroprotetores": [
+        "Dasatinib"
+      ]
+    },
+    {
+      "id": 43,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Resveratrol"
+      ],
+      "geroprotetores": [
+        "Resveratrol"
+      ]
+    },
+    {
+      "id": 44,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Navitoclax"
+      ],
+      "geroprotetores": [
+        "Navitoclax"
+      ]
+    },
+    {
+      "id": 45,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Spermidine"
+      ],
+      "geroprotetores": [
+        "Spermidine"
+      ]
+    },
+    {
+      "id": 46,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Fisetin"
+      ],
+      "geroprotetores": [
+        "Fisetin"
+      ]
+    },
+    {
+      "id": 47,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Quercetin"
+      ],
+      "geroprotetores": [
+        "Quercetin"
+      ]
+    },
+    {
+      "id": 48,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Nicotinamide riboside"
+      ],
+      "geroprotetores": [
+        "Nicotinamide riboside"
+      ]
+    },
+    {
+      "id": 49,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "Nicotinamide mononucleotide"
+      ],
+      "geroprotetores": [
+        "Nicotinamide mononucleotide"
+      ]
+    },
+    {
+      "id": 50,
+      "tamanho": 1,
+      "tipos": {
+        "drug": 1
+      },
+      "proteinas": [],
+      "drogas_exemplo": [
+        "17alpha-Estradiol"
+      ],
+      "geroprotetores": [
+        "17alpha-Estradiol"
+      ]
+    }
+  ]
+}

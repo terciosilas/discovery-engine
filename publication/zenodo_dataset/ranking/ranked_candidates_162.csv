@@ -1,0 +1,163 @@
+Rank,Compound,ChEMBL_ID,Score,Phase,Aging_Targets,Lifespan_Pct,pChEMBL,Known_Geroprotector,Mechanisms,Sources
+1,Rapamycin,CHEMBL413,0.5193,4,0,14.78,9.7,True,mTOR inhibitor,curado; drugage
+2,SOMATROPIN,CHEMBL1201621,0.495,4,1,0.0,0.0,False,Growth hormone receptor agonist,open_targets
+3,REGORAFENIB,CHEMBL1946170,0.4817,4,2,0.0,0.0,False,MAP kinase p38 beta inhibitor,open_targets
+4,VENETOCLAX,CHEMBL3137309,0.4485,4,1,0.0,0.0,False,Apoptosis regulator Bcl-2 inhibitor,open_targets
+5,NINTEDANIB ESYLATE,CHEMBL3039504,0.445,4,2,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+6,PAZOPANIB HYDROCHLORIDE,CHEMBL1201733,0.445,4,2,0.0,0.0,False,Macrophage colony stimulating factor receptor inhibitor,open_targets
+7,BARDOXOLONE METHYL,CHEMBL1762621,0.4417,3,2,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma antagonist,open_targets
+8,PAZOPANIB,CHEMBL477772,0.4417,3,2,0.0,0.0,False,Macrophage colony stimulating factor receptor inhibitor,open_targets
+9,BEZAFIBRATE,CHEMBL264374,0.4379,4,1,13.0,0.0,False,Peroxisome proliferator-activated receptor agonist,open_targets; drugage
+10,Metformin,CHEMBL1431,0.4375,4,0,9.94,4.54,True,AMPK activator,curado; drugage
+11,NINTEDANIB,CHEMBL502835,0.435,3,2,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+12,Resveratrol,CHEMBL71,0.4346,3,0,7.16,9.15,True,SIRT1 activator,curado; drugage
+13,Spermidine,CHEMBL14240,0.4263,2,0,60.5,5.52,True,Autophagy inducer,curado; drugage
+14,DACTOLISIB,CHEMBL1879463,0.425,3,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+15,GEDATOLISIB,CHEMBL592445,0.4216,3,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+16,SILTUXIMAB,CHEMBL1743070,0.4116,4,1,0.0,0.0,False,Interleukin-6 antagonist,open_targets
+17,ROSIGLITAZONE,CHEMBL121,0.4017,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+18,Acarbose,CHEMBL1566,0.3989,4,0,9.78,0.0,True,Alpha-glucosidase inhibitor,curado; drugage
+19,MECASERMIN,CHEMBL1201716,0.3984,4,1,0.0,0.0,False,Insulin-like growth factor I receptor agonist,open_targets
+20,Dasatinib,CHEMBL1421,0.3963,4,0,0.0,7.58,True,Senolytic (tyrosine kinase inhibitor),curado
+21,PIOGLITAZONE,CHEMBL595,0.3951,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+22,BRIVANIB,CHEMBL377300,0.395,3,2,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+23,Quercetin,CHEMBL159,0.3927,2,0,8.56,9.1,True,Senolytic (PI3K/AKT),curado; drugage
+24,Fisetin,CHEMBL159654,0.3862,2,0,12.86,7.43,True,Senolytic (PI3K/AKT/mTOR),curado; drugage
+25,BUPARLISIB,CHEMBL2017974,0.375,3,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+26,SAMOTOLISIB,CHEMBL4297181,0.375,2,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+27,MESALAMINE,CHEMBL704,0.375,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+28,INSULIN GLARGINE,CHEMBL1201497,0.375,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+29,NAVITOCLAX,CHEMBL443684,0.37,3,1,0.0,0.0,True,Apoptosis regulator Bcl-2 inhibitor,open_targets
+30,RIDAFOROLIMUS,CHEMBL2103839,0.3551,3,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+31,SF-1126,CHEMBL2326966,0.345,2,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+32,APITOLISIB,CHEMBL1922094,0.345,2,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+33,VOXTALISIB,CHEMBL3545366,0.345,2,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+34,PF-04691502,CHEMBL1234354,0.345,2,2,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+35,PERHEXILINE,CHEMBL75880,0.345,4,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+36,PEGVISOMANT,CHEMBL1201515,0.345,4,1,0.0,0.0,False,Growth hormone receptor antagonist,open_targets
+37,SOMATROGON,CHEMBL4297830,0.345,4,1,0.0,0.0,False,Growth hormone receptor agonist,open_targets
+38,LONAPEGSOMATROPIN,CHEMBL4298185,0.345,4,1,0.0,0.0,False,Growth hormone receptor agonist,open_targets
+39,SOMAPACITAN,CHEMBL3707290,0.345,4,1,0.0,0.0,False,Growth hormone receptor agonist,open_targets
+40,OMAVELOXOLONE,CHEMBL4303525,0.345,4,1,0.0,0.0,False,Nuclear factor erythroid 2-related factor 2 activator,open_targets
+41,TROGLITAZONE,CHEMBL408,0.345,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+42,ROSIGLITAZONE MALEATE,CHEMBL843,0.345,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+43,OLSALAZINE SODIUM,CHEMBL1201013,0.345,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+44,BALSALAZIDE DISODIUM,CHEMBL1200760,0.345,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+45,PIOGLITAZONE HYDROCHLORIDE,CHEMBL1715,0.345,4,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+46,MASOPROCOL,CHEMBL313972,0.345,4,1,0.0,0.0,False,Insulin-like growth factor I receptor inhibitor,open_targets
+47,TEPROTUMUMAB,CHEMBL1743079,0.345,4,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+48,FUTIBATINIB,CHEMBL3701238,0.345,4,1,0.0,0.0,False,Fibroblast growth factor receptor inhibitor,open_targets
+49,INFIGRATINIB,CHEMBL1852688,0.345,4,1,0.0,0.0,False,Fibroblast growth factor receptor inhibitor,open_targets
+50,ERDAFITINIB,CHEMBL3545376,0.345,4,1,0.0,0.0,False,Fibroblast growth factor receptor inhibitor,open_targets
+51,PEMIGATINIB,CHEMBL4297522,0.345,4,1,0.0,0.0,False,Fibroblast growth factor receptor 1 inhibitor,open_targets
+52,INFIGRATINIB PHOSPHATE,CHEMBL1834657,0.345,4,1,0.0,0.0,False,Fibroblast growth factor receptor inhibitor,open_targets
+53,INSULIN DETEMIR,CHEMBL2104391,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+54,INSULIN ASPART,CHEMBL1201496,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+55,INSULIN LISPRO,CHEMBL1201538,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+56,INSULIN GLULISINE,CHEMBL1201613,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+57,INSULIN HUMAN,CHEMBL1201631,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+58,INSULIN PURIFIED BEEF,CHEMBL1201629,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+59,INSULIN PURIFIED PORK,CHEMBL1201630,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+60,INSULIN DEGLUDEC,CHEMBL2107869,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+61,"INSULIN HUMAN, ISOPHANE",CHEMBL2108973,0.345,4,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+62,LENVATINIB,CHEMBL1289601,0.345,4,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+63,SUNITINIB,CHEMBL535,0.345,4,1,0.0,0.0,False,Macrophage colony stimulating factor receptor inhibitor,open_targets
+64,AXITINIB,CHEMBL1289926,0.345,4,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+65,SUNITINIB MALATE,CHEMBL1567,0.345,4,1,0.0,0.0,False,Macrophage colony stimulating factor receptor inhibitor,open_targets
+66,LENVATINIB MESYLATE,CHEMBL2105704,0.345,4,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+67,VANDETANIB,CHEMBL24828,0.345,4,1,0.0,0.0,False,Tyrosine-protein kinase BRK inhibitor,open_targets
+68,SORAFENIB TOSYLATE,CHEMBL1200485,0.345,4,1,0.0,0.0,False,Platelet-derived growth factor receptor beta inhibitor,open_targets
+69,TIVOZANIB HYDROCHLORIDE,CHEMBL2105756,0.345,4,1,0.0,0.0,False,Platelet-derived growth factor receptor beta inhibitor,open_targets
+70,FRUQUINTINIB,CHEMBL4303214,0.345,4,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+71,OBLIMERSEN SODIUM,CHEMBL2109229,0.3384,3,1,0.0,0.0,False,Bcl-2 mRNA antisense inhibitor,open_targets
+72,IDASANUTLIN,CHEMBL2402737,0.335,3,1,0.0,0.0,False,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,open_targets
+73,LINSITINIB,CHEMBL1091644,0.335,3,1,0.0,0.0,False,Insulin receptor inhibitor,open_targets
+74,SIRUKUMAB,CHEMBL1743071,0.3317,3,1,0.0,0.0,False,Interleukin-6 inhibitor,open_targets
+75,FIGITUMUMAB,CHEMBL1743019,0.3317,3,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+76,CIXUTUMUMAB,CHEMBL1743001,0.3284,2,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+77,IMETELSTAT,CHEMBL2107856,0.3283,3,1,0.0,0.0,False,Telomerase reverse transcriptase inhibitor,open_targets
+78,SORAFENIB,CHEMBL1336,0.325,3,1,0.0,0.0,False,Platelet-derived growth factor receptor beta inhibitor,open_targets
+79,PICTILISIB,CHEMBL521851,0.323,2,1,9.6,0.0,False,PI3-kinase class I inhibitor,open_targets; drugage
+80,SAPANISERTIB,CHEMBL3545097,0.3183,2,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+81,NAVTEMADLIN,CHEMBL3125702,0.3083,2,1,0.0,0.0,False,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,open_targets
+82,ACADESINE,CHEMBL1551724,0.295,3,1,0.0,0.0,False,"AMP-activated protein kinase, AMPK activator",open_targets
+83,EPRENETAPOPT,CHEMBL3186011,0.295,3,1,0.0,0.0,False,Cellular tumor antigen p53 stabiliser,open_targets
+84,OLOKIZUMAB,CHEMBL1743050,0.295,3,1,0.0,0.0,False,Interleukin-6 inhibitor,open_targets
+85,OBATOCLAX,CHEMBL408194,0.295,3,1,0.0,0.0,False,Induced myeloid leukemia cell differentiation protein Mcl-1 inhibitor,open_targets
+86,OBATOCLAX MESYLATE,CHEMBL2107358,0.295,3,1,0.0,0.0,False,Induced myeloid leukemia cell differentiation protein Mcl-1 inhibitor,open_targets
+87,TOMINERSEN,CHEMBL4297581,0.295,3,1,0.0,0.0,False,Huntingtin mRNA antisense inhibitor,open_targets
+88,MURAGLITAZAR,CHEMBL186179,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+89,MK-0767,CHEMBL4297404,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+90,IMIGLITAZAR,CHEMBL592054,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+91,BALSALAZIDE,CHEMBL1201346,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+92,LANIFIBRANOR,CHEMBL4091374,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor agonist,open_targets
+93,BALAGLITAZONE,CHEMBL2103991,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma partial agonist,open_targets
+94,RIVOGLITAZONE,CHEMBL2104753,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor gamma agonist,open_targets
+95,TESAGLITAZAR,CHEMBL282686,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+96,SAROGLITAZAR,CHEMBL4297530,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+97,CHIGLITAZAR,CHEMBL4650349,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor agonist,open_targets
+98,ALEGLITAZAR,CHEMBL519504,0.295,3,1,0.0,0.0,False,Peroxisome proliferator-activated receptor alpha agonist,open_targets
+99,ORANTINIB,CHEMBL274654,0.295,3,1,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+100,SURUFATINIB,CHEMBL4297190,0.295,3,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+101,BRIVANIB ALANINATE,CHEMBL270995,0.295,3,1,0.0,0.0,False,Vascular endothelial growth factor receptor inhibitor,open_targets
+102,EDIFOLIGIDE SODIUM,CHEMBL2109058,0.295,3,1,0.0,0.0,False,E2F inhibitor,open_targets
+103,INSULIN SUSP ISOPHANE RECOMBINANT HUMAN,CHEMBL1201540,0.295,3,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+104,INSULIN PORK,CHEMBL1201539,0.295,3,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+105,INSULIN SUSP ISOPHANE BEEF,CHEMBL1201545,0.295,3,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+106,INSULIN ZINC SUSP RECOMBINANT HUMAN,CHEMBL1201644,0.295,3,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+107,INSULIN SUSP ISOPHANE SEMISYNTHETIC PURIFIED HUMAN,CHEMBL1201627,0.295,3,1,0.0,0.0,False,Insulin receptor agonist,open_targets
+108,LINIFANIB,CHEMBL223360,0.295,3,1,0.0,0.0,False,Macrophage colony stimulating factor receptor inhibitor,open_targets
+109,FAMITINIB,CHEMBL1278146,0.295,3,1,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+110,CEDIRANIB,CHEMBL491473,0.295,3,1,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+111,TIVOZANIB,CHEMBL1289494,0.295,3,1,0.0,0.0,False,Platelet-derived growth factor receptor beta inhibitor,open_targets
+112,DOVITINIB,CHEMBL522892,0.295,3,1,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+113,SELONSERTIB,CHEMBL3916717,0.295,3,1,0.0,0.0,False,Mitogen-activated protein kinase kinase kinase 5 inhibitor,open_targets
+114,TASELISIB,CHEMBL2387080,0.295,3,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+115,CD24FC,CHEMBL4297717,0.295,3,1,0.0,0.0,False,Heat shock 70 kDa protein 1A/1B inhibitor,open_targets
+116,Nicotinamide riboside,CHEMBL1232779,0.2857,2,0,7.33,0.0,True,NAD+ precursor,curado; drugage
+117,VISTUSERTIB,CHEMBL2336325,0.2817,2,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+118,CLAZAKIZUMAB,CHEMBL2108589,0.2817,2,1,0.0,0.0,False,Interleukin-6 inhibitor,open_targets
+119,CONTUSUGENE LADENOVEC,CHEMBL2108585,0.2783,2,1,0.0,0.0,False,Cellular tumor antigen p53 exogenous gene,open_targets
+120,Navitoclax,CHEMBL1236639,0.27,3,0,0.0,0.0,True,Senolytic (BCL-2 inhibitor),curado
+121,ONATASERTIB,CHEMBL3586404,0.245,2,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+122,INDOXIMOD,CHEMBL571209,0.245,2,1,0.0,0.0,False,mTORC1 activator,open_targets
+123,XENTUZUMAB,CHEMBL4297850,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I inhibitor,open_targets
+124,DUSIGITUMAB,CHEMBL2109355,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I inhibitor,open_targets
+125,SRT-2104,CHEMBL4297436,0.245,2,1,0.0,0.0,False,NAD-dependent deacetylase sirtuin 1 activator,open_targets
+126,CENERSEN SODIUM,CHEMBL2219776,0.245,2,1,0.0,0.0,False,p53 mRNA antisense inhibitor,open_targets
+127,CENERSEN,CHEMBL2108280,0.245,2,1,0.0,0.0,False,p53 mRNA antisense inhibitor,open_targets
+128,SIREMADLIN,CHEMBL3653256,0.245,2,1,0.0,0.0,False,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,open_targets
+129,ALRIZOMADLIN,CHEMBL4091801,0.245,2,1,0.0,0.0,False,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,open_targets
+130,TEPRASIRAN,CHEMBL4297574,0.245,2,1,0.0,0.0,False,p53 mRNA RNAi inhibitor,open_targets
+131,IMETELSTAT SODIUM,CHEMBL2108702,0.245,2,1,0.0,0.0,False,Telomerase reverse transcriptase inhibitor,open_targets
+132,DAPORINAD,CHEMBL566757,0.245,2,1,0.0,0.0,False,Nicotinamide phosphoribosyltransferase inhibitor,open_targets
+133,APG-2575,CHEMBL4650374,0.245,2,1,0.0,0.0,False,Apoptosis regulator Bcl-2 inhibitor,open_targets
+134,OBLIMERSEN,CHEMBL2108324,0.245,2,1,0.0,0.0,False,Bcl-2 mRNA antisense inhibitor,open_targets
+135,GANITUMAB,CHEMBL1743024,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+136,AXL-1717,CHEMBL283120,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor inhibitor,open_targets
+137,DALOTUZUMAB,CHEMBL1743006,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+138,VELIGROTUG,CHEMBL2109357,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+139,ISTIRATUMAB,CHEMBL3989990,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor inhibitor,open_targets
+140,MECASERMIN RINFABATE,CHEMBL1201717,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor agonist,open_targets
+141,ROBATUMUMAB,CHEMBL1743064,0.245,2,1,0.0,0.0,False,Insulin-like growth factor I receptor antagonist,open_targets
+142,BMS-754807,CHEMBL575448,0.245,2,1,0.0,0.0,False,Insulin receptor inhibitor,open_targets
+143,XL-999,CHEMBL5314391,0.245,2,1,0.0,0.0,False,Platelet-derived growth factor receptor inhibitor,open_targets
+144,BRIVOLIGIDE,CHEMBL4297228,0.245,2,1,0.0,0.0,False,Early growth response protein 1 inhibitor,open_targets
+145,PAXALISIB,CHEMBL3813842,0.245,2,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+146,SONOLISIB,CHEMBL411907,0.245,2,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+147,PILARALISIB,CHEMBL3360203,0.245,2,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+148,Nicotinamide mononucleotide,CHEMBL1233417,0.22,2,0,0.0,0.0,True,NAD+ precursor,curado; drugage
+149,AZD-8055,CHEMBL1801204,0.195,1,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+150,CC-115,CHEMBL3586573,0.195,1,1,0.0,0.0,False,Serine/threonine-protein kinase mTOR inhibitor,open_targets
+151,ZILTIVEKIMAB,CHEMBL4297732,0.195,1,1,0.0,0.0,False,Interleukin-6 inhibitor,open_targets
+152,MRA 003 US,CHEMBL2109615,0.195,1,1,0.0,0.0,False,Interleukin-6 inhibitor,open_targets
+153,TEGLARINAD,CHEMBL1181731,0.195,1,1,0.0,0.0,False,Nicotinamide phosphoribosyltransferase inhibitor,open_targets
+154,TEGLARINAD CHLORIDE,CHEMBL190412,0.195,1,1,0.0,0.0,False,Nicotinamide phosphoribosyltransferase inhibitor,open_targets
+155,GSK-1059615,CHEMBL3544966,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+156,DS-7423,CHEMBL3545248,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+157,PANULISIB,CHEMBL5095025,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+158,ZSTK-474,CHEMBL586702,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+159,WX-037,CHEMBL3545385,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+160,IZORLISIB,CHEMBL1684984,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+161,OMIPALISIB,CHEMBL1236962,0.195,1,1,0.0,0.0,False,PI3-kinase class I inhibitor,open_targets
+162,17alpha-Estradiol,CHEMBL1005469,0.14,0,0,0.0,0.0,True,Non-feminizing estrogen,curado

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Discovery Engine Dataset: Computational Identification of Geroprotective Compound Candidates via Multi-Source Biological Network Analysis",
+    "upload_type": "dataset",
+    "publication_date": "2026-03-11",
+    "creators": [
+      {
+        "name": "Azevedo, Tercio S.",
+        "affiliation": "Independent Researcher, Sao Carlos, SP, Brazil",
+        "orcid": ""
+      }
+    ],
+    "description": "<p>This dataset accompanies the paper \"Computational Identification of Geroprotective Compound Candidates via Multi-Source Biological Network Analysis\". It contains all processed data, validation results, and figures from the Discovery Engine project.</p><p>The Discovery Engine pipeline integrates 6 public biological databases (PubMed, Semantic Scholar, GenAge, Open Targets, ChEMBL, DrugAge) into a knowledge graph (479 nodes, 898 edges) and ranks 162 drug candidates for geroprotective potential using a weighted multi-feature scoring system.</p><p><strong>Key results:</strong></p><ul><li>Rapamycin (rank #1) and Metformin (rank #10) correctly identified as top geroprotectors</li><li>External validation: 4.42x enrichment of DrugAge compounds in top-20 (Mann-Whitney p=1.59e-3)</li><li>Pathway enrichment: 11/11 aging pathway categories significantly enriched (p=1.27e-20)</li><li>Novel candidates: Bezafibrate (PPAR agonist, +13% lifespan), Bardoxolone methyl (NRF2 activator), Venetoclax (BCL-2 senolytic)</li></ul><p>Pipeline code: <a href=\"https://github.com/terciosilas/discovery-engine\">github.com/terciosilas/discovery-engine</a></p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "drug repurposing",
+      "geroprotectors",
+      "aging",
+      "longevity",
+      "computational biology",
+      "knowledge graph",
+      "DrugAge",
+      "GenAge",
+      "mTOR",
+      "senolytics"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/terciosilas/discovery-engine",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [
+      {"term": "Computational Biology", "scheme": "url", "identifier": "http://id.loc.gov/authorities/subjects/sh2002000569"},
+      {"term": "Drug Repurposing", "scheme": "url", "identifier": "http://id.loc.gov/authorities/subjects/sh2018002544"},
+      {"term": "Aging", "scheme": "url", "identifier": "http://id.loc.gov/authorities/subjects/sh85002087"}
+    ],
+    "language": "eng",
+    "notes": "Pipeline deterministic with seed=42. All inputs/outputs tracked via SHA-256 checksums. 106 automated tests ensure correctness. Computational assistance provided by Claude Code (Anthropic).",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,6 @@
+Configuration,Rapamycin_Rank,Metformin_Rank,Spermidine_Rank,Resveratrol_Rank,Top5_Compounds
+baseline,1,10,13,12,Rapamycin; SOMATROPIN; REGORAFENIB; VENETOCLAX; NINTEDANIB ESYLATE
+lifespan_dominante,2,5,1,4,Spermidine; Rapamycin; Fisetin; Resveratrol; Metformin
+fase_clinica_dominante,2,10,72,20,SOMATROPIN; Rapamycin; REGORAFENIB; VENETOCLAX; NINTEDANIB ESYLATE
+network_dominante,27,43,45,39,SOMATROPIN; VENETOCLAX; REGORAFENIB; BARDOXOLONE METHYL; PAZOPANIB
+uniforme,1,5,7,2,Rapamycin; Resveratrol; SOMATROPIN; Quercetin; Metformin

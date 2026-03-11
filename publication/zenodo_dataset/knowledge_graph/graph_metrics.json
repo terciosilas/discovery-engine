@@ -1,0 +1,688 @@
+{
+  "global": {
+    "n_nos": 479,
+    "n_arestas": 898,
+    "n_proteinas": 50,
+    "n_drogas": 162,
+    "n_doencas": 267,
+    "densidade": 0.007844,
+    "componentes_conectados": 43,
+    "maior_componente": 433
+  },
+  "top_proteinas_centralidade": [
+    {
+      "node": "protein:PPARG",
+      "label": "PPARG",
+      "degree_centrality": 0.0439,
+      "betweenness": 0.0789,
+      "closeness": 0.2449,
+      "grau": 21
+    },
+    {
+      "node": "protein:FLT1",
+      "label": "FLT1",
+      "degree_centrality": 0.0439,
+      "betweenness": 0.0235,
+      "closeness": 0.2186,
+      "grau": 21
+    },
+    {
+      "node": "protein:PIK3R1",
+      "label": "PIK3R1",
+      "degree_centrality": 0.0418,
+      "betweenness": 0.0103,
+      "closeness": 0.2249,
+      "grau": 20
+    },
+    {
+      "node": "protein:MTOR",
+      "label": "MTOR",
+      "degree_centrality": 0.0314,
+      "betweenness": 0.0312,
+      "closeness": 0.2431,
+      "grau": 15
+    },
+    {
+      "node": "protein:FGFR1",
+      "label": "FGFR1",
+      "degree_centrality": 0.0314,
+      "betweenness": 0.0122,
+      "closeness": 0.2092,
+      "grau": 15
+    },
+    {
+      "node": "protein:INSR",
+      "label": "INSR",
+      "degree_centrality": 0.0314,
+      "betweenness": 0.0102,
+      "closeness": 0.1986,
+      "grau": 15
+    },
+    {
+      "node": "protein:IGF1R",
+      "label": "IGF1R",
+      "degree_centrality": 0.0293,
+      "betweenness": 0.0635,
+      "closeness": 0.2449,
+      "grau": 14
+    },
+    {
+      "node": "protein:TP53",
+      "label": "TP53",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0127,
+      "closeness": 0.2159,
+      "grau": 9
+    },
+    {
+      "node": "protein:BCL2",
+      "label": "BCL2",
+      "degree_centrality": 0.0146,
+      "betweenness": 0.0028,
+      "closeness": 0.2095,
+      "grau": 7
+    },
+    {
+      "node": "protein:IL6",
+      "label": "IL6",
+      "degree_centrality": 0.0126,
+      "betweenness": 0.0179,
+      "closeness": 0.2302,
+      "grau": 6
+    },
+    {
+      "node": "protein:GHR",
+      "label": "GHR",
+      "degree_centrality": 0.0105,
+      "betweenness": 0.0132,
+      "closeness": 0.187,
+      "grau": 5
+    },
+    {
+      "node": "protein:NAMPT",
+      "label": "NAMPT",
+      "degree_centrality": 0.0063,
+      "betweenness": 0.0002,
+      "closeness": 0.1751,
+      "grau": 3
+    },
+    {
+      "node": "protein:IGF1",
+      "label": "IGF1",
+      "degree_centrality": 0.0042,
+      "betweenness": 0.0001,
+      "closeness": 0.2008,
+      "grau": 2
+    },
+    {
+      "node": "protein:TERT",
+      "label": "TERT",
+      "degree_centrality": 0.0042,
+      "betweenness": 0.0,
+      "closeness": 0.2013,
+      "grau": 2
+    },
+    {
+      "node": "protein:NFE2L2",
+      "label": "NFE2L2",
+      "degree_centrality": 0.0042,
+      "betweenness": 0.0006,
+      "closeness": 0.2267,
+      "grau": 2
+    },
+    {
+      "node": "protein:SIRT1",
+      "label": "SIRT1",
+      "degree_centrality": 0.0021,
+      "betweenness": 0.0,
+      "closeness": 0.1506,
+      "grau": 1
+    },
+    {
+      "node": "protein:PRKAA1",
+      "label": "PRKAA1",
+      "degree_centrality": 0.0021,
+      "betweenness": 0.0,
+      "closeness": 0.1752,
+      "grau": 1
+    },
+    {
+      "node": "protein:HTT",
+      "label": "HTT",
+      "degree_centrality": 0.0021,
+      "betweenness": 0.0,
+      "closeness": 0.0028,
+      "grau": 1
+    },
+    {
+      "node": "protein:E2F1",
+      "label": "E2F1",
+      "degree_centrality": 0.0021,
+      "betweenness": 0.0,
+      "closeness": 0.1473,
+      "grau": 1
+    },
+    {
+      "node": "protein:EGR1",
+      "label": "EGR1",
+      "degree_centrality": 0.0021,
+      "betweenness": 0.0,
+      "closeness": 0.0028,
+      "grau": 1
+    }
+  ],
+  "top_drogas_centralidade": [
+    {
+      "node": "drug:CHEMBL1201621",
+      "label": "SOMATROPIN",
+      "degree_centrality": 0.0941,
+      "betweenness": 0.1603,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 45
+    },
+    {
+      "node": "drug:CHEMBL3137309",
+      "label": "VENETOCLAX",
+      "degree_centrality": 0.0649,
+      "betweenness": 0.0754,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 31
+    },
+    {
+      "node": "drug:CHEMBL1743001",
+      "label": "CIXUTUMUMAB",
+      "degree_centrality": 0.0523,
+      "betweenness": 0.057,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 25
+    },
+    {
+      "node": "drug:CHEMBL2017974",
+      "label": "BUPARLISIB",
+      "degree_centrality": 0.0502,
+      "betweenness": 0.0583,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 24
+    },
+    {
+      "node": "drug:CHEMBL3545097",
+      "label": "SAPANISERTIB",
+      "degree_centrality": 0.046,
+      "betweenness": 0.0352,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 22
+    },
+    {
+      "node": "drug:CHEMBL1743070",
+      "label": "SILTUXIMAB",
+      "degree_centrality": 0.0418,
+      "betweenness": 0.0725,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 20
+    },
+    {
+      "node": "drug:CHEMBL3125702",
+      "label": "NAVTEMADLIN",
+      "degree_centrality": 0.0397,
+      "betweenness": 0.0232,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 19
+    },
+    {
+      "node": "drug:CHEMBL2103839",
+      "label": "RIDAFOROLIMUS",
+      "degree_centrality": 0.0377,
+      "betweenness": 0.0322,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 18
+    },
+    {
+      "node": "drug:CHEMBL121",
+      "label": "ROSIGLITAZONE",
+      "degree_centrality": 0.0356,
+      "betweenness": 0.0566,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 17
+    },
+    {
+      "node": "drug:CHEMBL1201716",
+      "label": "MECASERMIN",
+      "degree_centrality": 0.0335,
+      "betweenness": 0.0676,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 16
+    },
+    {
+      "node": "drug:CHEMBL595",
+      "label": "PIOGLITAZONE",
+      "degree_centrality": 0.0314,
+      "betweenness": 0.0431,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 15
+    },
+    {
+      "node": "drug:CHEMBL1762621",
+      "label": "BARDOXOLONE METHYL",
+      "degree_centrality": 0.0293,
+      "betweenness": 0.1293,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 14
+    },
+    {
+      "node": "drug:CHEMBL477772",
+      "label": "PAZOPANIB",
+      "degree_centrality": 0.0293,
+      "betweenness": 0.0169,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 14
+    },
+    {
+      "node": "drug:CHEMBL2109229",
+      "label": "OBLIMERSEN SODIUM",
+      "degree_centrality": 0.0272,
+      "betweenness": 0.0154,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 13
+    },
+    {
+      "node": "drug:CHEMBL2402737",
+      "label": "IDASANUTLIN",
+      "degree_centrality": 0.0251,
+      "betweenness": 0.0158,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 12
+    },
+    {
+      "node": "drug:CHEMBL1091644",
+      "label": "LINSITINIB",
+      "degree_centrality": 0.0251,
+      "betweenness": 0.024,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 12
+    },
+    {
+      "node": "drug:CHEMBL502835",
+      "label": "NINTEDANIB",
+      "degree_centrality": 0.0251,
+      "betweenness": 0.0332,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 12
+    },
+    {
+      "node": "drug:CHEMBL2336325",
+      "label": "VISTUSERTIB",
+      "degree_centrality": 0.023,
+      "betweenness": 0.0209,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 11
+    },
+    {
+      "node": "drug:CHEMBL1743071",
+      "label": "SIRUKUMAB",
+      "degree_centrality": 0.023,
+      "betweenness": 0.0249,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 11
+    },
+    {
+      "node": "drug:CHEMBL2108589",
+      "label": "CLAZAKIZUMAB",
+      "degree_centrality": 0.023,
+      "betweenness": 0.0322,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 11
+    },
+    {
+      "node": "drug:CHEMBL1743019",
+      "label": "FIGITUMUMAB",
+      "degree_centrality": 0.023,
+      "betweenness": 0.0134,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 11
+    },
+    {
+      "node": "drug:CHEMBL1946170",
+      "label": "REGORAFENIB",
+      "degree_centrality": 0.023,
+      "betweenness": 0.0137,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 11
+    },
+    {
+      "node": "drug:CHEMBL2108585",
+      "label": "CONTUSUGENE LADENOVEC",
+      "degree_centrality": 0.0209,
+      "betweenness": 0.0137,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 10
+    },
+    {
+      "node": "drug:CHEMBL2107856",
+      "label": "IMETELSTAT",
+      "degree_centrality": 0.0209,
+      "betweenness": 0.0104,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 10
+    },
+    {
+      "node": "drug:CHEMBL1879463",
+      "label": "DACTOLISIB",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0183,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 9
+    },
+    {
+      "node": "drug:CHEMBL4297181",
+      "label": "SAMOTOLISIB",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0085,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 9
+    },
+    {
+      "node": "drug:CHEMBL704",
+      "label": "MESALAMINE",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0264,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 9
+    },
+    {
+      "node": "drug:CHEMBL1201497",
+      "label": "INSULIN GLARGINE",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0479,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 9
+    },
+    {
+      "node": "drug:CHEMBL1336",
+      "label": "SORAFENIB",
+      "degree_centrality": 0.0188,
+      "betweenness": 0.0119,
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 9
+    },
+    {
+      "node": "drug:CHEMBL592445",
+      "label": "GEDATOLISIB",
+      "degree_centrality": 0.0167,
+      "betweenness": 0.0063,
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "lifespan_efeito": 0.0,
+      "grau": 8
+    }
+  ],
+  "top_drogas_aging_connections": [
+    {
+      "node": "drug:CHEMBL1879463",
+      "label": "DACTOLISIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL592445",
+      "label": "GEDATOLISIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL2326966",
+      "label": "SF-1126",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL1922094",
+      "label": "APITOLISIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL3545366",
+      "label": "VOXTALISIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL4297181",
+      "label": "SAMOTOLISIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL1234354",
+      "label": "PF-04691502",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL1762621",
+      "label": "BARDOXOLONE METHYL",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL1946170",
+      "label": "REGORAFENIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 4
+    },
+    {
+      "node": "drug:CHEMBL3039504",
+      "label": "NINTEDANIB ESYLATE",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 4
+    },
+    {
+      "node": "drug:CHEMBL1201733",
+      "label": "PAZOPANIB HYDROCHLORIDE",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 4
+    },
+    {
+      "node": "drug:CHEMBL377300",
+      "label": "BRIVANIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL477772",
+      "label": "PAZOPANIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL502835",
+      "label": "NINTEDANIB",
+      "n_alvos_envelhecimento": 2,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL75880",
+      "label": "PERHEXILINE",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 4
+    },
+    {
+      "node": "drug:CHEMBL2103839",
+      "label": "RIDAFOROLIMUS",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL3586404",
+      "label": "ONATASERTIB",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL571209",
+      "label": "INDOXIMOD",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL3545097",
+      "label": "SAPANISERTIB",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL2336325",
+      "label": "VISTUSERTIB",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL1801204",
+      "label": "AZD-8055",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 1
+    },
+    {
+      "node": "drug:CHEMBL3586573",
+      "label": "CC-115",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 1
+    },
+    {
+      "node": "drug:CHEMBL1551724",
+      "label": "ACADESINE",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL4297850",
+      "label": "XENTUZUMAB",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL2109355",
+      "label": "DUSIGITUMAB",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL4297436",
+      "label": "SRT-2104",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL3186011",
+      "label": "EPRENETAPOPT",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL2402737",
+      "label": "IDASANUTLIN",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 3
+    },
+    {
+      "node": "drug:CHEMBL2219776",
+      "label": "CENERSEN SODIUM",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    },
+    {
+      "node": "drug:CHEMBL2108280",
+      "label": "CENERSEN",
+      "n_alvos_envelhecimento": 1,
+      "geroprotetor": false,
+      "max_fase": 2
+    }
+  ]
+}

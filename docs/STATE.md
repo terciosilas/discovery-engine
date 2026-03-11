@@ -8,11 +8,21 @@
 **Fase 1 -- Ingestao e Mapeamento (100%)**
 **Fase 2 -- Analise e Cruzamento (95%)** -- T-048 (visualizacao grafo) pendente
 **Fase 3 -- Validacao Computacional (100%)** -- T-056/T-062 descartados
-**Fase 4 -- Publicacao (85%)** << EM ANDAMENTO
+**Fase 4 -- Publicacao (90%)** << EM ANDAMENTO
 
 ## O que foi feito
 
 ### Sessao #8 (2026-03-11)
+- **T-074: Repositorio tornado PUBLICO:**
+  - README.md criado (descricao, pipeline, instrucoes reproducao, citacao)
+  - requirements.txt criado (7 dependencias: numpy, scipy, matplotlib, networkx, requests, PyYAML, pytest)
+  - .gitignore atualizado (exclui JSONs grandes, audit_logs, caches; inclui dados externos)
+  - Auditoria de seguranca: zero credenciais, zero caminhos hardcoded, operador anonimizado
+  - 106 testes passando (confirmado)
+  - Dados externos (DrugAge, GenAge) incluidos para reproducibilidade
+  - 61 arquivos commitados (~15k linhas): code + outputs + figuras + resultados
+  - Repo publico: https://github.com/terciosilas/discovery-engine
+  - Topics: drug-repurposing, aging, geroprotectors, computational-biology, knowledge-graph, longevity
 - **Analise Mecanistica dos Top-20 (completa):**
   - Criado `src/analysis/mechanistic_interpretation.py` (~550 linhas)
   - 20 compostos analisados, media 1.9 hallmarks/composto
@@ -82,7 +92,7 @@
   5. Interpretacao mecanistica (8/8 hallmarks, 3 eixos convergentes)
 - **Paper e cientificamente completo.** Falta apenas revisao humana e decisoes de publicacao.
 - **Faltam apenas decisoes do operador:**
-  - T-074: Tornar repo GitHub publico (requer decisao)
+  - ~~T-074: Tornar repo GitHub publico~~ -- FEITO
   - T-075: Publicar dados no Zenodo (requer decisao)
   - T-077: Formatar no template do journal (depende de escolha do journal)
   - T-078: Submeter preprint (requer aprovacao)
@@ -90,21 +100,21 @@
 
 ## Bloqueios atuais
 
-- **T-074/T-075:** Requer decisao do operador sobre publicacao
+- **T-075:** Requer decisao do operador sobre Zenodo
 - **T-077:** Requer escolha final do journal-alvo
 - **T-078/T-079:** Requer aprovacao do operador para submissao
 ## Proximo passo concreto
 
-1. ~~Atualizar PAPER_DRAFT_v1.md~~ -- FEITO (enrichment + benchmark + validacao externa + mecanistica)
-2. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
-3. **T-074: Tornar repo publico** -- `gh repo edit --visibility public`
+1. ~~Atualizar PAPER_DRAFT_v1.md~~ -- FEITO
+2. ~~T-074: Tornar repo publico~~ -- FEITO (https://github.com/terciosilas/discovery-engine)
+3. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
 4. **T-075: Zenodo** -- conectar GitHub ao Zenodo para DOI automatico
 5. **T-077: Formatar no template** -- baixar template do journal escolhido
 
 ## Contexto tecnico ativo
 
 - **Google Drive:** G:\Meu Drive\Discovery_Engine
-- **GitHub:** terciosilas/discovery-engine (privado)
+- **GitHub:** terciosilas/discovery-engine (PUBLICO)
 - **Testes:** 106 passando
 - **Modulos:** 27 arquivos Python em src/ (+1 nesta sessao: mechanistic_interpretation.py)
 - **Dependencias:** networkx 3.6.1, matplotlib 3.10.8, scipy
