@@ -32,7 +32,7 @@ class AuditLogger:
 
     def __init__(
         self,
-        operador: str = "tercio.silas",
+        operador: str = "system",
         audit_dir: str | Path | None = None,
         modulo: str = "geral",
     ) -> None:

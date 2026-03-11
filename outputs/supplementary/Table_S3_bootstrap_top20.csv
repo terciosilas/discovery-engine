@@ -1,0 +1,21 @@
+Compound,Mean_Rank,Median_Rank,Std_Dev,Min_Rank,Max_Rank,Top10_Freq_Pct,N_Appearances
+Rapamycin,1.0,1,0.0,1,1,80.5,805
+Somatropin,1.8,2,0.4,1,2,79.8,798
+Regorafenib,2.6,3,0.6,1,3,80.3,803
+Venetoclax,3.4,4,0.7,1,4,82.4,824
+Nintedanib Esylate,4.6,5,0.9,1,6,81.0,810
+Pazopanib Hydrochloride,4.6,5,0.9,1,6,78.5,785
+Pazopanib,6.2,6,1.1,2,8,79.6,796
+Bardoxolone Methyl,6.2,6,1.1,3,8,80.1,801
+Bezafibrate,7.4,8,1.1,4,9,80.3,803
+Metformin,8.2,8,1.2,4,10,78.2,782
+Nintedanib,9.0,9,1.2,5,11,70.3,779
+Resveratrol,9.8,10,1.3,5,12,54.8,800
+Spermidine,10.6,11,1.4,6,13,36.5,810
+Dactolisib,11.4,12,1.4,6,14,18.0,803
+Gedatolisib,12.2,12,1.5,7,15,10.4,790
+Siltuximab,13.0,13,1.6,7,16,5.4,787
+Rosiglitazone,13.7,14,1.6,8,17,2.5,807
+Acarbose,14.5,15,1.6,9,18,0.8,779
+Mecasermin,15.3,15,1.7,9,19,0.4,799
+Dasatinib,16.1,16,1.7,10,20,0.2,796

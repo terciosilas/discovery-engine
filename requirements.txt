@@ -1,0 +1,17 @@
+# Discovery Engine - Dependencies
+# Install: pip install -r requirements.txt
+
+# Core Scientific Stack
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+networkx>=2.6.0
+
+# HTTP & APIs
+requests>=2.26.0
+
+# Configuration
+PyYAML>=5.4.0
+
+# Testing
+pytest>=6.2.0

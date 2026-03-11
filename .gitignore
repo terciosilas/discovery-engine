@@ -21,6 +21,7 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+.pytest_cache/
 
 # Environment / Secrets
 .env
@@ -29,24 +30,32 @@ security/*.key
 security/*.pem
 security/*.json
 
-# Data (grande demais para git - fica no Google Drive)
+# Data - processed JSONs are large, stay on Google Drive
 data/raw/
-data/processed/
+data/processed/*.json
 data/analysis/
+data/checkpoints/
+# Keep .gitkeep and external reference data
+!data/raw/.gitkeep
+!data/raw/papers/.gitkeep
+!data/raw/datasets/.gitkeep
+!data/processed/.gitkeep
+!data/external/
 
-# PDFs de papers (ficam no Google Drive, nao no git)
+# PDFs de papers (copyright)
 bibliography/*.pdf
 
-# Outputs dados (ficam no Google Drive)
-outputs/*.json
-outputs/*.xlsx
-outputs/*.csv
-# Relatorios markdown vao pro git
-!outputs/*.md
-
-# Audit logs (append-only, ficam no Google Drive)
+# Audit logs (append-only, local)
 audit_logs/*.json
 audit_logs/*.log
+audit_logs/executions/
+
+# Large JSON outputs
+outputs/relatorio_fase1_*.json
+outputs/pathway_enrichment/pathway_enrichment_full.json
+outputs/model_benchmark/benchmark_full.json
+results/external_validation_drugage/validation_full.json
+results/mechanistic_interpretation/mechanistic_full.json
 
 # OS
 .DS_Store

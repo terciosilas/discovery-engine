@@ -1,0 +1,7 @@
+Feature_Removed,Original_Weight,Rapamycin_Rank,Metformin_Rank,Avg_Rank_Change,Max_Rank_Change,Positive_Controls_OK
+Clinical Phase,0.2,2,23,11.45,78,False
+Aging Targets,0.2,1,2,10.92,100,True
+Lifespan Effect,0.2,11,24,5.31,105,False
+Binding Potency (pChEMBL),0.1,12,15,3.52,92,False
+Literature Evidence,0.15,6,22,4.63,56,False
+Graph Centrality,0.15,1,6,6.47,85,True

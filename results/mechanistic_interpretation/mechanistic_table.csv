@@ -1,0 +1,21 @@
+rank,drug_name,score_total,max_fase_clinica,geroprotetor_conhecido,primary_targets,key_pathways,associated_aging_hallmarks,n_hallmarks,evidence_sources,lifespan_effect
+1,Rapamycin,0.5193,4,True,MTOR; RICTOR; RPS6KB1; RPTOR,Autophagy; Insulin signaling; Longevity regulating pathway; PI3K-Akt signaling; Translation regulation; mTOR signaling; mTORC1 signaling; mTORC2 signaling,Loss of Proteostasis; Nutrient Sensing; Stem Cell Exhaustion,3,chembl; curado; drugage,14.78
+2,SOMATROPIN,0.495,4,False,GHR; IGF1R,Growth hormone signaling; IGF-1 axis; Insulin/IGF-1 signaling; JAK-STAT signaling; Longevity regulating pathway; PI3K-Akt signaling,Nutrient Sensing; Stem Cell Exhaustion,2,open_targets,0.0
+3,REGORAFENIB,0.4817,4,False,FGFR1; FLT1,Angiogenesis; FGF signaling; RTK signaling; Stem cell maintenance; VEGF signaling,Stem Cell Exhaustion,1,open_targets,0.0
+4,VENETOCLAX,0.4485,4,False,BCL2,Apoptosis regulation; Intrinsic apoptotic pathway; Senescence,Cellular Senescence,1,open_targets,0.0
+5,NINTEDANIB ESYLATE,0.445,4,False,FGFR1; FLT1,Angiogenesis; FGF signaling; RTK signaling; Stem cell maintenance; VEGF signaling,Stem Cell Exhaustion,1,open_targets,0.0
+6,PAZOPANIB HYDROCHLORIDE,0.445,4,False,FGFR1; FLT1,Angiogenesis; FGF signaling; RTK signaling; Stem cell maintenance; VEGF signaling,Stem Cell Exhaustion,1,open_targets,0.0
+7,BARDOXOLONE METHYL,0.4417,3,False,NFE2L2; PPARG,Adipogenesis; Inflammation regulation; Lipid metabolism; NRF2/antioxidant response; Oxidative stress defense; PPAR signaling; Xenobiotic metabolism,Altered Intercellular Communication; Mitochondrial Dysfunction,2,open_targets,0.0
+8,PAZOPANIB,0.4417,3,False,FGFR1; FLT1,Angiogenesis; FGF signaling; RTK signaling; Stem cell maintenance; VEGF signaling,Stem Cell Exhaustion,1,open_targets,0.0
+9,BEZAFIBRATE,0.4379,4,False,PPARG,Adipogenesis; Inflammation regulation; Lipid metabolism; PPAR signaling,Altered Intercellular Communication; Mitochondrial Dysfunction,2,drugage; open_targets,13.0
+10,Metformin,0.4375,4,True,PRKAA1; PRKAA2; STK11,AMPK signaling; Autophagy; Longevity regulating pathway; Metabolic regulation; p53 regulation,Genomic Instability; Mitochondrial Dysfunction; Nutrient Sensing; Stem Cell Exhaustion,4,chembl; curado; drugage,9.94
+11,NINTEDANIB,0.435,3,False,FGFR1; FLT1,Angiogenesis; FGF signaling; RTK signaling; Stem cell maintenance; VEGF signaling,Stem Cell Exhaustion,1,open_targets,0.0
+12,Resveratrol,0.4346,3,True,NAMPT; SIRT1; SIRT3,Circadian clock; FOXO signaling; Longevity regulating pathway; Mitochondrial function; NAD+ biosynthesis; NAD+ metabolism; Sirtuin signaling,Epigenetic Alterations; Genomic Instability; Mitochondrial Dysfunction; Nutrient Sensing,4,chembl; curado; drugage,7.16
+13,Spermidine,0.4263,2,True,,,Loss of Proteostasis,1,chembl; curado; drugage,60.5
+14,DACTOLISIB,0.425,3,False,MTOR; PIK3R1,Autophagy; Insulin signaling; Longevity regulating pathway; PI3K-Akt signaling; mTOR signaling,Loss of Proteostasis; Nutrient Sensing; Stem Cell Exhaustion,3,open_targets,0.0
+15,GEDATOLISIB,0.4216,3,False,MTOR; PIK3R1,Autophagy; Insulin signaling; Longevity regulating pathway; PI3K-Akt signaling; mTOR signaling,Loss of Proteostasis; Nutrient Sensing; Stem Cell Exhaustion,3,open_targets,0.0
+16,SILTUXIMAB,0.4116,4,False,IL6,IL-6 signaling; Inflammaging; JAK-STAT signaling; SASP,Altered Intercellular Communication; Cellular Senescence,2,open_targets,0.0
+17,ROSIGLITAZONE,0.4017,4,False,PPARG,Adipogenesis; Inflammation regulation; Lipid metabolism; PPAR signaling,Altered Intercellular Communication; Mitochondrial Dysfunction,2,open_targets,0.0
+18,Acarbose,0.3989,4,True,,,,0,curado; drugage,9.78
+19,MECASERMIN,0.3984,4,False,IGF1R,Insulin/IGF-1 signaling; Longevity regulating pathway; PI3K-Akt signaling,Nutrient Sensing; Stem Cell Exhaustion,2,open_targets,0.0
+20,Dasatinib,0.3963,4,True,,,Cellular Senescence,1,chembl; curado,0.0

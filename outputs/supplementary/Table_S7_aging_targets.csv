@@ -1,0 +1,51 @@
+Rank,Symbol,Full_Name,Ensembl_ID,Papers_Mentioning,Total_Mentions,Pathway,Source
+1,MTOR,mechanistic target of rapamycin (serine/threonine kinase),ENSG00000198793,18,23,mTOR/PI3K/AKT,genage
+2,AMPK,AMP-activated protein kinase,ENSG00000111725,16,33,AMPK/Energy sensing,curado
+3,UBB,ubiquitin B,ENSG00000170315,14,16,,genage
+4,IGF1,insulin-like growth factor 1 (somatomedin C),ENSG00000017427,10,13,,genage
+5,SIRT1,sirtuin 1,ENSG00000096717,9,17,Sirtuinas/NAD+,genage
+6,CDKN2A,cyclin-dependent kinase inhibitor 2A,ENSG00000147889,6,19,p16/Senescence,genage
+7,APOE,apolipoprotein E,ENSG00000130203,5,19,,genage
+8,PRKAA1,protein kinase AMP-activated catalytic subunit alpha 1,ENSG00000132356,5,6,,alias
+9,TP53,tumor protein p53,ENSG00000141510,5,6,p53/Senescence,genage
+10,FOXO3,forkhead box O3,ENSG00000118689,5,14,FOXO/Insulin signaling,genage
+11,IL6,interleukin 6,ENSG00000136244,5,5,,genage
+12,TERT,telomerase reverse transcriptase,ENSG00000164362,4,18,Telomere maintenance,genage
+13,CDKN1A,"cyclin-dependent kinase inhibitor 1A (p21, Cip1)",ENSG00000124762,3,3,,genage
+14,GHR,growth hormone receptor,ENSG00000112964,3,6,,genage
+15,SIRT6,sirtuin 6,ENSG00000077463,3,22,Sirtuinas/DNA repair,genage
+16,NFE2L2,"nuclear factor, erythroid 2-like 2",ENSG00000116044,3,5,,genage
+17,NAMPT,Nicotinamide phosphoribosyltransferase,ENSG00000105835,3,8,NAD+ biosynthesis,curado
+18,BCL2,B-cell CLL/lymphoma 2,ENSG00000171791,3,3,Apoptosis/Senolytic target,genage
+19,CAT,catalase,ENSG00000121691,2,2,,genage
+20,BECN1,beclin 1,ENSG00000126581,2,3,,alias
+21,HTT,huntingtin,ENSG00000197386,2,6,,genage
+22,BDNF,brain-derived neurotrophic factor,ENSG00000176697,2,3,,genage
+23,CDKN2B,"cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)",ENSG00000147883,2,2,,genage
+24,SIRT3,sirtuin 3,ENSG00000071909,2,12,Sirtuinas/Mitocondria,genage
+25,GH1,growth hormone 1,ENSG00000259384,2,3,,genage
+26,KL,klotho,ENSG00000133116,2,18,Klotho/FGF23,genage
+27,PTEN,phosphatase and tensin homolog,ENSG00000284792,2,8,,genage
+28,FGF21,fibroblast growth factor 21,ENSG00000105550,2,6,,genage
+29,LMNA,lamin A/C,ENSG00000160789,1,3,Nuclear lamina/Progeria,genage
+30,FAS,Fas cell surface death receptor,ENSG00000026103,1,1,,genage
+31,FOXO1,forkhead box O1,ENSG00000150907,1,1,,genage
+32,PPARG,peroxisome proliferator-activated receptor gamma,ENSG00000132170,1,1,,genage
+33,IGF1R,insulin-like growth factor 1 receptor,ENSG00000140443,1,2,,genage
+34,FGFR1,fibroblast growth factor receptor 1,ENSG00000077782,1,2,,genage
+35,ATG5,Autophagy related 5,ENSG00000057663,1,1,Autophagy,curado
+36,E2F1,E2F transcription factor 1,ENSG00000101412,1,1,,genage
+37,EGR1,early growth response 1,ENSG00000120738,1,1,,genage
+38,AIFM1,"apoptosis-inducing factor, mitochondrion-associated, 1",ENSG00000156709,1,3,,genage
+39,MSRA,methionine sulfoxide reductase A,ENSG00000285250,1,1,,genage
+40,RICTOR,"RPTOR independent companion of MTOR, complex 2",ENSG00000164327,1,1,,genage
+41,PLCG2,"phospholipase C, gamma 2 (phosphatidylinositol-specific)",ENSG00000197943,1,3,,genage
+42,SIN3A,SIN3 transcription regulator family member A,ENSG00000169375,1,2,,genage
+43,RAD51,RAD51 recombinase,ENSG00000051180,1,1,,genage
+44,RAD52,"RAD52 homolog, DNA repair protein",ENSG00000002016,1,1,,genage
+45,INSR,insulin receptor,ENSG00000171105,1,1,,genage
+46,FLT1,fms-related tyrosine kinase 1,ENSG00000102755,1,2,,genage
+47,MAP3K5,mitogen-activated protein kinase kinase kinase 5,ENSG00000197442,1,2,,genage
+48,PIK3R1,"phosphoinositide-3-kinase, regulatory subunit 1 (alpha)",ENSG00000145675,1,2,,genage
+49,UCP1,"uncoupling protein 1 (mitochondrial, proton carrier)",ENSG00000109424,1,3,,genage
+50,HMGB1,high mobility group box 1,ENSG00000189403,1,4,,genage
