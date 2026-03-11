@@ -13,6 +13,15 @@
 ## O que foi feito
 
 ### Sessao #8 (2026-03-11)
+- **T-075: Dataset Zenodo preparado:**
+  - `publication/zenodo_dataset/` com 25 arquivos em 6 categorias
+  - README_dataset.md com descricao de colunas e instrucoes de uso
+  - LICENSE CC-BY-4.0 para dados
+  - ZENODO_METADATA.json com metadados completos
+  - `publication/zenodo_upload_checklist.md` com passos para gerar DOI
+  - Release GitHub: v1.0 (https://github.com/terciosilas/discovery-engine/releases/tag/v1.0)
+  - Paper atualizado com secao Data Availability (placeholder DOI)
+  - **Proximo passo manual:** Ativar integracao Zenodo-GitHub e publicar
 - **T-074: Repositorio tornado PUBLICO:**
   - README.md criado (descricao, pipeline, instrucoes reproducao, citacao)
   - requirements.txt criado (7 dependencias: numpy, scipy, matplotlib, networkx, requests, PyYAML, pytest)
@@ -93,22 +102,23 @@
 - **Paper e cientificamente completo.** Falta apenas revisao humana e decisoes de publicacao.
 - **Faltam apenas decisoes do operador:**
   - ~~T-074: Tornar repo GitHub publico~~ -- FEITO
-  - T-075: Publicar dados no Zenodo (requer decisao)
+  - ~~T-075: Publicar dados no Zenodo~~ -- PREPARADO (falta ativar integracao manual)
   - T-077: Formatar no template do journal (depende de escolha do journal)
   - T-078: Submeter preprint (requer aprovacao)
   - T-079: Submeter ao journal (requer aprovacao)
 
 ## Bloqueios atuais
 
-- **T-075:** Requer decisao do operador sobre Zenodo
+- **T-075:** Zenodo preparado, falta ativar integracao manual (zenodo.org > Settings > GitHub)
 - **T-077:** Requer escolha final do journal-alvo
 - **T-078/T-079:** Requer aprovacao do operador para submissao
 ## Proximo passo concreto
 
 1. ~~Atualizar PAPER_DRAFT_v1.md~~ -- FEITO
-2. ~~T-074: Tornar repo publico~~ -- FEITO (https://github.com/terciosilas/discovery-engine)
-3. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
-4. **T-075: Zenodo** -- conectar GitHub ao Zenodo para DOI automatico
+2. ~~T-074: Tornar repo publico~~ -- FEITO
+3. ~~T-075: Zenodo preparado~~ -- release v1.0 criada, checklist em publication/
+4. **Ativar integracao Zenodo-GitHub** -- manual: zenodo.org > Settings > GitHub
+5. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
 5. **T-077: Formatar no template** -- baixar template do journal escolhido
 
 ## Contexto tecnico ativo
