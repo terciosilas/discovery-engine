@@ -8,11 +8,25 @@
 **Fase 1 -- Ingestao e Mapeamento (100%)**
 **Fase 2 -- Analise e Cruzamento (95%)** -- T-048 (visualizacao grafo) pendente
 **Fase 3 -- Validacao Computacional (100%)** -- T-056/T-062 descartados
-**Fase 4 -- Publicacao (90%)** << EM ANDAMENTO
+**Fase 4 -- Publicacao (95%)** << EM ANDAMENTO
 
 ## O que foi feito
 
 ### Sessao #8 (2026-03-11)
+- **T-078: Preprint bioRxiv preparado:**
+  - `submission/submission_package/discovery_engine_preprint.docx` (798 KB, figuras embutidas)
+  - `submission/preprint_submission_metadata.md` (titulo, abstract, keywords, categoria)
+  - `submission/biorxiv_submission_checklist.md` (passos, campos, declaracoes)
+  - Categoria bioRxiv: Bioinformatics
+  - bioRxiv aceita Word com figuras; gera PDF automaticamente
+  - **Proximo passo manual:** Upload em https://submit.biorxiv.org/
+- **T-077: Paper formatado para GeroScience:**
+  - `submission/PAPER_GEROSCIENCE_SUBMISSION.md` -- manuscrito adaptado (refs numeradas, abstract 248 palavras, Declarations, italico)
+  - `submission/COVER_LETTER_GEROSCIENCE.md` -- cover letter direcionada ao GeroScience
+  - `submission/geroscience_submission_checklist.md` -- checklist completo com campos, reviewers, passos
+  - `submission/submission_package/` -- 16 arquivos prontos para upload (manuscrito + 5 figs + supplementary)
+  - 4 sugestoes de reviewers: de Magalhaes, Zhavoronkov, Seluanov, Barzilai
+  - **Proximo passo manual:** Converter MD->DOCX e submeter via Editorial Manager
 - **T-075: Dataset Zenodo preparado:**
   - `publication/zenodo_dataset/` com 25 arquivos em 6 categorias
   - README_dataset.md com descricao de colunas e instrucoes de uso
@@ -103,14 +117,14 @@
 - **Faltam apenas decisoes do operador:**
   - ~~T-074: Tornar repo GitHub publico~~ -- FEITO
   - ~~T-075: Publicar dados no Zenodo~~ -- PREPARADO (falta ativar integracao manual)
-  - T-077: Formatar no template do journal (depende de escolha do journal)
+  - ~~T-077: Formatar para GeroScience~~ -- FEITO (submission package pronto)
   - T-078: Submeter preprint (requer aprovacao)
   - T-079: Submeter ao journal (requer aprovacao)
 
 ## Bloqueios atuais
 
 - **T-075:** Zenodo preparado, falta ativar integracao manual (zenodo.org > Settings > GitHub)
-- **T-077:** Requer escolha final do journal-alvo
+- **T-077:** ~~Requer escolha final do journal-alvo~~ -- GeroScience, submission package pronto
 - **T-078/T-079:** Requer aprovacao do operador para submissao
 ## Proximo passo concreto
 
@@ -119,7 +133,8 @@
 3. ~~T-075: Zenodo preparado~~ -- release v1.0 criada, checklist em publication/
 4. **Ativar integracao Zenodo-GitHub** -- manual: zenodo.org > Settings > GitHub
 5. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
-5. **T-077: Formatar no template** -- baixar template do journal escolhido
+6. ~~T-077: Formatar para GeroScience~~ -- FEITO (submission/ pronto)
+7. **Submeter ao GeroScience** -- converter MD->DOCX, upload via Editorial Manager
 
 ## Contexto tecnico ativo
 

@@ -197,4 +197,4 @@ Geroprotective Compound Candidates [Data set]. Zenodo. https://doi.org/10.5281/z
 
 ## Contact
 
-Tercio S. Azevedo -- tercio@callamarys.com.br
+Tercio S. Azevedo -- terciosilas@gmail.com

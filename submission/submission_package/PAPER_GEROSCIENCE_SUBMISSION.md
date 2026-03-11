@@ -4,7 +4,7 @@ Tercio S. Azevedo^1^
 
 ^1^ Independent Researcher, Sao Carlos, SP, Brazil
 
-**Corresponding author:** Tercio S. Azevedo, tercio@callamarys.com.br
+**Corresponding author:** Tercio S. Azevedo, terciosilas@gmail.com
 
 ---
 

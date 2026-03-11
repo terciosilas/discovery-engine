@@ -297,17 +297,28 @@ NS=Nutrient Sensing, LP=Loss of Proteostasis, SCE=Stem Cell Exhaustion, CS=Cellu
 
 ---
 
-## Figure Legends
+## Figures
 
-**Fig. 1** Pipeline overview. The Discovery Engine pipeline integrates data from six public databases into a knowledge graph, applying a weighted multi-feature scoring system to rank 162 drug candidates for geroprotective potential.
+![Fig. 1](G:/Meu Drive/Discovery_Engine/outputs/figures/fig1_pipeline_overview.png)
 
-**Fig. 2** Top-20 compound ranking. Horizontal bar chart showing composite scores for the 20 highest-ranked candidates. Known geroprotectors are highlighted. Score components (clinical phase, aging targets, lifespan, potency, literature, centrality) are shown as stacked segments.
+**Fig. 1.** Pipeline overview. The Discovery Engine pipeline integrates data from six public databases into a knowledge graph, applying a weighted multi-feature scoring system to rank 162 drug candidates for geroprotective potential.
 
-**Fig. 3** Bootstrap stability analysis (n=1,000 iterations). Distribution of ranks for the top-20 compounds across bootstrap resamples. Rapamycin maintains rank #1 with zero variance.
+![Fig. 2](G:/Meu Drive/Discovery_Engine/outputs/figures/fig2_top20_ranking.png)
 
-**Fig. 4** Feature ablation study. Impact of removing each scoring feature on the ranks of five positive control geroprotectors. Lifespan and potency removal cause the largest rank drops.
+**Fig. 2.** Top-20 compound ranking. Horizontal bar chart showing composite scores for the 20 highest-ranked candidates. Known geroprotectors are highlighted. Score components (clinical phase, aging targets, lifespan, potency, literature, centrality) are shown as stacked segments.
 
-**Fig. 5** Weight sensitivity analysis. Ranks of positive controls across five weight configurations (baseline, lifespan-dominant, clinical-phase-dominant, network-dominant, uniform).
+![Fig. 3](G:/Meu Drive/Discovery_Engine/outputs/figures/fig3_bootstrap_stability.png)
+
+**Fig. 3.** Bootstrap stability analysis (n=1,000 iterations). Distribution of ranks for the top-20 compounds across bootstrap resamples. Rapamycin maintains rank #1 with zero variance.
+
+![Fig. 4](G:/Meu Drive/Discovery_Engine/outputs/figures/fig4_ablation_study.png)
+
+**Fig. 4.** Feature ablation study. Impact of removing each scoring feature on the ranks of five positive control geroprotectors. Lifespan and potency removal cause the largest rank drops.
+
+![Fig. 5](G:/Meu Drive/Discovery_Engine/outputs/figures/fig5_sensitivity_analysis.png)
+
+**Fig. 5.** Weight sensitivity analysis. Ranks of positive controls across five weight configurations (baseline, lifespan-dominant, clinical-phase-dominant, network-dominant, uniform).
+
 
 ---
 

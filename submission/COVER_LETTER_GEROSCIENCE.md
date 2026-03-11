@@ -1,7 +1,7 @@
 Tercio S. Azevedo
 Independent Researcher
 Sao Carlos, SP, Brazil
-tercio@callamarys.com.br
+terciosilas@gmail.com
 
 Date: March 2026
 

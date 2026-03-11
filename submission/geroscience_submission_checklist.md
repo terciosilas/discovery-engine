@@ -57,7 +57,7 @@ Nota: Para submissao inicial, GeroScience aceita formatos nao padrao. A formatac
 | Running Title | Computational Geroprotector Identification |
 | Author | Tercio S. Azevedo |
 | Affiliation | Independent Researcher, Sao Carlos, SP, Brazil |
-| Email | tercio@callamarys.com.br |
+| Email | terciosilas@gmail.com |
 | ORCID | (preencher se disponivel) |
 | Keywords | drug repurposing; geroprotectors; aging; computational biology; knowledge graph; longevity |
 | Abstract | 248 palavras (limite: 150-250) |
