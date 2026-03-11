@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / Secrets
+.env
+.env.*
+security/*.key
+security/*.pem
+security/*.json
+
+# Data (grande demais para git - fica no OneDrive)
+data/raw/
+data/processed/
+data/analysis/
+
+# PDFs de papers (ficam no OneDrive, nao no git)
+bibliography/*.pdf
+
+# Outputs (ficam no OneDrive com timestamp)
+outputs/
+
+# Audit logs (append-only, ficam no OneDrive)
+audit_logs/*.json
+audit_logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive conflict files
+*-DESKTOP-*
+*(conflito)*

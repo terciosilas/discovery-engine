@@ -1,0 +1,43 @@
+# Nunca commitar credenciais
+.env
+*.key
+*.pem
+*.p12
+credentials.json
+
+# Dados sensíveis
+data/raw/
+data/processed/
+data/analysis/
+
+# Logs (muito grandes para git)
+audit_logs/
+
+# Papers (protegidos por direitos autorais)
+bibliography/*.pdf
+
+# Outputs (grandes, ficam no OneDrive)
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
