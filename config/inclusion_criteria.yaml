@@ -1,0 +1,77 @@
+# Criterios de inclusao/exclusao para selecao de papers
+# DEFINIDOS ANTES das buscas (nao post-hoc) - exigencia etica
+# Versionado no git - toda alteracao requer commit documentado
+
+versao: "1.0"
+data_definicao: "2026-03-10"
+justificativa: "Criterios definidos a priori para garantir rigor metodologico e evitar vies de selecao"
+
+# Criterios de INCLUSAO (paper deve atender TODOS)
+inclusao:
+  idioma:
+    - "en"  # Ingles (lingua franca da ciencia)
+  tipos_publicacao:
+    - "journal article"
+    - "review"
+    - "systematic review"
+    - "meta-analysis"
+    - "preprint"
+  periodo:
+    inicio: "2020-01-01"
+    fim: "2026-12-31"
+    justificativa: "Ultimos 6 anos - dados recentes e relevantes"
+  temas_obrigatorios:
+    # Paper deve abordar pelo menos UM tema de cada grupo
+    grupo_biologico:
+      - "aging"
+      - "longevity"
+      - "senescence"
+      - "geroprotection"
+      - "healthspan"
+      - "lifespan"
+    grupo_molecular:
+      - "protein"
+      - "proteomics"
+      - "proteome"
+      - "drug"
+      - "compound"
+      - "molecule"
+      - "inhibitor"
+      - "agonist"
+  disponibilidade:
+    - "abstract disponivel"  # Minimo: abstract acessivel
+
+# Criterios de EXCLUSAO (paper que atender QUALQUER um eh excluido)
+exclusao:
+  tipos_publicacao:
+    - "retracted"
+    - "erratum"
+    - "editorial"
+    - "letter to editor"
+    - "case report"
+  temas:
+    - "cosmetic aging"      # Envelhecimento estetico (nao biologico)
+    - "food aging"          # Envelhecimento de alimentos
+    - "material aging"      # Envelhecimento de materiais
+    - "wine aging"          # Envelhecimento de vinhos
+    - "cheese aging"        # Envelhecimento de queijos
+  organismos_excluidos: []  # Nenhum por enquanto - incluir todos os modelos
+  qualidade_minima:
+    abstract_minimo_palavras: 50   # Abstracts muito curtos = baixa qualidade
+    titulo_minimo_palavras: 5      # Titulos muito curtos = suspeito
+
+# Controles de qualidade
+controles:
+  positivos:
+    descricao: "Papers conhecidos que DEVEM aparecer nos resultados"
+    papers:
+      - doi: "10.1038/s41586-023-06264-9"
+        descricao: "Nature 2023 - Proteomica do envelhecimento no UK Biobank"
+      - doi: "10.1126/science.abe8455"
+        descricao: "Science 2021 - Plasma proteomics e envelhecimento"
+  negativos:
+    descricao: "Termos que NAO devem dominar os resultados"
+    termos:
+      - "cosmetic"
+      - "food preservation"
+      - "material science"

@@ -1,0 +1,45 @@
+# Queries de busca para o Discovery Engine
+# Versionado no git - toda alteracao requer commit documentado
+# Formato: nome_query -> parametros de busca
+
+# Fase 1 - Busca exploratoria inicial
+fase_1_exploratorio:
+  pubmed:
+    - query: "proteomics aging longevity"
+      max_results: 500
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "Papers sobre proteomica do envelhecimento"
+
+    - query: "drug repurposing aging geroprotector"
+      max_results: 500
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "Papers sobre reposicionamento de drogas para envelhecimento"
+
+    - query: "senolytic drug discovery computational"
+      max_results: 200
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "Descoberta computacional de senoliticos"
+
+    - query: "mTOR inhibitor aging longevity"
+      max_results: 200
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "Inibidores de mTOR e longevidade"
+
+    - query: "NAD+ aging metabolism proteomics"
+      max_results: 200
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "NAD+ e metabolismo do envelhecimento"
+
+    - query: "sirtuin FOXO3 Klotho longevity protein"
+      max_results: 200
+      date_range: "2020/01/01:2026/12/31"
+      sort: "relevance"
+      descricao: "Proteinas-chave de longevidade"
+
+# Fase 2 - Buscas focadas (definir apos analise da Fase 1)
+fase_2_focado: []

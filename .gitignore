@@ -24,7 +24,7 @@ env/
 
 # Environment / Secrets
 .env
-.env.*
+!.env.example
 security/*.key
 security/*.pem
 security/*.json
