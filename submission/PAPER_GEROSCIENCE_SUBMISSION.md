@@ -170,7 +170,7 @@ Not applicable. This study is purely computational and does not involve human su
 
 ### Data availability
 
-The complete dataset (ranked candidates, knowledge graph, validation results, figures, and supplementary tables) is available on Zenodo: https://doi.org/10.5281/zenodo.XXXXXXX (CC-BY-4.0). Code is available at https://github.com/terciosilas/discovery-engine (MIT License). The pipeline is deterministic with seed=42; all inputs/outputs are tracked via SHA-256 checksums. 106 automated tests ensure correctness.
+The complete dataset (ranked candidates, knowledge graph, validation results, figures, and supplementary tables) is available on Zenodo: https://doi.org/10.5281/zenodo.18966721 (CC-BY-4.0). Code is available at https://github.com/terciosilas/discovery-engine (MIT License). The pipeline is deterministic with seed=42; all inputs/outputs are tracked via SHA-256 checksums. 106 automated tests ensure correctness.
 
 ### Declaration of generative AI use
 

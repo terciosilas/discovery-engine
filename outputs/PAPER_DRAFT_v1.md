@@ -330,7 +330,7 @@ Priority next steps include: (1) molecular docking of top candidates against agi
 ## 5. Data and Code Availability
 
 - **Code:** https://github.com/terciosilas/discovery-engine (MIT License)
-- **Data:** The complete dataset (ranked candidates, knowledge graph, validation results, figures, and supplementary tables) is available on Zenodo: https://doi.org/10.5281/zenodo.XXXXXXX (CC-BY-4.0)
+- **Data:** The complete dataset (ranked candidates, knowledge graph, validation results, figures, and supplementary tables) is available on Zenodo: https://doi.org/10.5281/zenodo.18966721 (CC-BY-4.0)
 - **Reproducibility:** Pipeline deterministic with seed=42, all inputs/outputs tracked via SHA-256 checksums
 - **Tests:** 106 automated tests covering all pipeline modules
 

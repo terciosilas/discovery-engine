@@ -140,7 +140,7 @@ Nenhum bloqueio tecnico. Apenas acoes manuais pendentes.
 
 1. **Criar ORCID** (se nao tiver): https://orcid.org/register
 2. **Ativar integracao Zenodo-GitHub:** zenodo.org > Settings > GitHub > Flip switch > Publicar release
-3. **Atualizar DOI Zenodo** no manuscrito (substituir placeholder XXXXXXX)
+3. ~~Atualizar DOI Zenodo~~ -- FEITO (10.5281/zenodo.18966721)
 4. **Submeter ao bioRxiv:** https://submit.biorxiv.org/ (seguir `submission/biorxiv_submission_checklist.md`)
 5. **Submeter ao GeroScience:** https://www.editorialmanager.com/jaaa/ (seguir `submission/editorial_manager_upload_order.md`)
 6. **Anotar numeros de submissao** (bioRxiv DOI + Editorial Manager #)

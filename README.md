@@ -179,6 +179,8 @@ MIT License
 If you use Discovery Engine in your research, please cite:
 
 ```
-Azevedo, T.S. (2026). Computational Identification of Geroprotective Compound
-Candidates via Multi-Source Biological Network Analysis. bioRxiv [preprint].
+Azevedo, T.S. (2026). Discovery Engine v1.0.1. Zenodo.
+https://doi.org/10.5281/zenodo.18966721
 ```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18966721.svg)](https://doi.org/10.5281/zenodo.18966721)

@@ -91,7 +91,7 @@ Not applicable.
 
 ### Data Availability Statement
 ```
-All data and code are publicly available. Source code: https://github.com/terciosilas/discovery-engine (MIT License). Datasets: https://doi.org/10.5281/zenodo.XXXXXXX (CC-BY 4.0). All external databases used (GenAge, DrugAge, Open Targets, ChEMBL) are publicly accessible.
+All data and code are publicly available. Source code: https://github.com/terciosilas/discovery-engine (MIT License). Datasets: https://doi.org/10.5281/zenodo.18966721 (CC-BY 4.0). All external databases used (GenAge, DrugAge, Open Targets, ChEMBL) are publicly accessible.
 ```
 
 ### AI Disclosure
@@ -118,7 +118,7 @@ This research was conducted with computational assistance from Claude Code (Anth
 ## 7. Notas para o Operador
 
 1. **ORCID:** Se voce nao tem, crie gratuitamente em https://orcid.org/register. E altamente recomendado para publicacoes cientificas.
-2. **Zenodo DOI:** Substituir `XXXXXXX` pelo DOI real apos ativar a integracao Zenodo-GitHub.
+2. **Zenodo DOI:** Atualizado para 10.5281/zenodo.18966721.
 3. **Open Access:** A opcao padrao (subscription) nao tem custo. Open Access (CC-BY) custa USD 4,490. Decidir antes de submeter.
 4. **bioRxiv DOI:** Se o preprint ja estiver publicado, adicionar o DOI na secao "Preprint server".
 

@@ -40,7 +40,7 @@ This manuscript is being submitted concurrently to GeroScience (Springer Nature)
 | Resource | URL |
 |----------|-----|
 | Code repository | https://github.com/terciosilas/discovery-engine |
-| Dataset (Zenodo) | https://doi.org/10.5281/zenodo.XXXXXXX |
+| Dataset (Zenodo) | https://doi.org/10.5281/zenodo.18966721 |
 | GeroScience submission | Editorial Manager #XXXXX |
 
 ## Declaration

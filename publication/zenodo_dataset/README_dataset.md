@@ -192,7 +192,7 @@ This dataset is released under the Creative Commons Attribution 4.0 Internationa
 
 ```
 Azevedo, T.S. (2026). Discovery Engine Dataset: Computational Identification of
-Geroprotective Compound Candidates [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Geroprotective Compound Candidates [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18966721
 ```
 
 ## Contact

@@ -95,7 +95,7 @@ Arquivo de metadados: `publication/ZENODO_METADATA.json`
    - Related identifiers: GitHub repo URL, relation "isSupplementTo"
 5. Clicar "Preview" para verificar
 6. Clicar "Publish"
-7. Copiar o DOI gerado (formato: 10.5281/zenodo.XXXXXXX)
+7. Copiar o DOI gerado (formato: 10.5281/zenodo.18966721)
 
 ### Opcao B: Integracao GitHub-Zenodo (Recomendado)
 
@@ -119,7 +119,7 @@ Arquivo de metadados: `publication/ZENODO_METADATA.json`
 Apos gerar o DOI, adicionar ao README.md do GitHub:
 
 ```markdown
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18966721.svg)](https://doi.org/10.5281/zenodo.18966721)
 ```
 
 ---
