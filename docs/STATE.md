@@ -1,53 +1,65 @@
-# Estado do Projeto — Discovery Engine
+# Estado do Projeto -- Discovery Engine
 
-> Última atualização: 2026-03-10 (Sessão #1)
+> Ultima atualizacao: 2026-03-10 (Sessao #2)
 
 ## Fase Atual
 
-**Fase 0 — Fundação (10% concluída)**
+**Fase 0 -- Fundacao (60% concluida)**
 
 ## O que foi feito
 
-### Sessão #1 (2026-03-10)
-- Definido tema: Proteínas/Longevidade + Drug Repurposing com IA
-- Pesquisa exploratória em 5 campos (resfriamento, água, saneamento, proteínas, drug repurposing)
+### Sessao #2 (2026-03-10)
+- Instalado GitHub CLI (`gh`) e autenticado como `terciosilas`
+- Criado repo privado: github.com/terciosilas/discovery-engine
+- Inicializado git local, primeiro commit e push
+- Criado `.gitignore` (Python, data, outputs, secrets) e `.env.example`
+- Construido `src/core/integrity.py` -- SHA-256 para rastreabilidade
+- Construido `src/core/audit.py` -- Logger append-only JSON (GOVERNANCA.md)
+- Construido `src/core/bibliography.py` -- Gestao BibTeX + licencas + PDFs
+- Criado `config/search_queries.yaml` -- 6 queries iniciais para PubMed
+- Criado `config/inclusion_criteria.yaml` -- Criterios pre-definidos com controles positivos/negativos
+- Criado `tests/test_core.py` -- 23 testes unitarios (100% passando)
+- Tercio abriu Google Colab (em portugues), sendo guiado na configuracao
+
+### Sessao #1 (2026-03-10)
+- Definido tema: Proteinas/Longevidade + Drug Repurposing com IA
+- Pesquisa exploratoria em 5 campos
 - Definida infraestrutura: OneDrive + Google Colab + Claude Code local
-- Definida governança: espelho do ERP (audit_logs, SHA-256, bibliography, ética)
+- Definida governanca: espelho do ERP (audit_logs, SHA-256, bibliography, etica)
 - Criada estrutura de pastas no OneDrive
-- Criados documentos fundacionais (CLAUDE.md, STATE.md, DECISIONS.md, BACKLOG.md, PMO.md)
-- Adicionado Protocolo de Continuidade ao CLAUDE.md global (todos os projetos)
+- Criados documentos fundacionais (CLAUDE.md, STATE, DECISIONS, BACKLOG, PMO)
+- Declaracoes eticas criadas (uso de IA + fontes)
 
-## Raciocínio em andamento
+## Raciocinio em andamento
 
-- Combinamos proteômica de longevidade com drug repurposing porque é **100% computacional**
-  e tem datasets públicos imensos (UK Biobank, DrugBank, GenAge, HALL, ChEMBL)
-- A abordagem é meta-análise computacional com ML/IA — não experimental
-- O diferencial seria: usar IA para cruzar dados proteômicos de envelhecimento com bases
-  de medicamentos existentes, identificando candidatos que pesquisadores de bancada não
-  conseguiriam encontrar por limitação humana de escala
-- Não precisamos de laboratório — a validação é computacional + estatística,
-  e o resultado é uma lista priorizada de candidatos para validação experimental por terceiros
-- O operador (Tércio) é leigo em biologia — todo o vocabulário técnico deve ser
-  explicado em termos acessíveis
+- Combinamos proteomica de longevidade com drug repurposing porque eh **100% computacional**
+  e tem datasets publicos imensos (UK Biobank, DrugBank, GenAge, HALL, ChEMBL)
+- A abordagem eh meta-analise computacional com ML/IA -- nao experimental
+- O diferencial: usar IA para cruzar dados proteomicos de envelhecimento com bases
+  de medicamentos existentes, identificando candidatos em escala sobre-humana
+- Nao precisamos de laboratorio -- validacao computacional + estatistica
+- Modulos core prontos e testados -- base solida para construir pipelines de ingestao
+- Proximo foco: pipeline PubMed (ingestao real de dados)
 
 ## Bloqueios atuais
 
-- Nenhum bloqueio técnico
-- Tércio ainda não configurou Google Colab (nunca usou)
-- GitHub repo privado ainda não criado
+- Google Colab: Tercio esta configurando (primeira vez)
+- Nota: Colab em portugues -- menus traduzidos (ex: "Ambiente de execucao" em vez de "Runtime")
 
-## Próximo passo concreto
+## Proximo passo concreto
 
-1. **Configurar Google Colab** — tutorial guiado para Tércio
-2. **Criar repo privado no GitHub** — `discovery-engine`
-3. **Construir módulo `src/core/bibliography.py`** — gestão de referências BibTeX + licenças
-4. **Construir módulo `src/ingestion/pubmed.py`** — pipeline de busca no PubMed via API
-5. **Primeira busca exploratória** — 100 papers mais citados sobre proteômica do envelhecimento
+1. **Finalizar configuracao Colab** -- Tercio precisa montar Drive e testar GPU
+2. **Construir `src/ingestion/pubmed.py`** -- Pipeline de busca via E-utilities API
+3. **Primeira busca exploratoria** -- Top 500 papers "proteomics aging longevity" (2020-2026)
+4. **Construir `src/ingestion/unpaywall.py`** -- Verificacao de licenca antes de armazenar PDFs
 
-## Contexto técnico ativo
+## Contexto tecnico ativo
 
-- **Máquina:** i5-1135G7, 24GB RAM, 18GB disco C: livre — NÃO sobrecarregar
+- **Maquina:** i5-1135G7, 24GB RAM, 18GB disco C: livre
 - **OneDrive:** 785 GB livres no plano 1TB
-- **Google Colab:** Não configurado ainda
-- **GitHub:** Tem conta (github.com/terciosilas), repo ainda não criado
-- **APIs:** PubMed (grátis, sem key), Semantic Scholar (grátis, key opcional)
+- **Google Colab:** Em configuracao (Tercio primeira vez)
+- **GitHub:** terciosilas/discovery-engine (PRIVADO, branch main, 2 commits)
+- **GitHub CLI:** gh v2.87.3 instalado e autenticado
+- **Python:** 3.14.2 local
+- **Testes:** 23 passando (pytest)
+- **APIs:** PubMed (gratis, sem key), Semantic Scholar (gratis, key opcional)

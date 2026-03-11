@@ -1,7 +1,7 @@
 # CLAUDE.md — Discovery Engine
 
 > Pesquisa científica: Identificação computacional de compostos geroprotetores via análise proteômica multi-ômica
-> Local: OneDrive/Discovery_Engine
+> Local: Google Drive (G:\Meu Drive\Discovery_Engine) | Colab: /content/drive/MyDrive/Discovery_Engine
 > Operador: Tércio Silas (leigo em biologia/medicina — Claude Code compensa a lacuna técnica)
 
 ---
@@ -16,9 +16,9 @@ Construir um sistema computacional que cruza dados proteômicos de envelheciment
 |---|---|---|
 | Orquestração | Claude Code | Local (máquina Tércio) |
 | Processamento pesado | Google Colab (GPU grátis) | Nuvem Google |
-| Armazenamento | OneDrive (785 GB livres) | Nuvem Microsoft |
+| Armazenamento | Google Drive (1.35 TB livres) | Nuvem Google |
 | Código | Python 3.10+ | Colab + Local |
-| Banco de dados | SQLite (portável, funciona no OneDrive) | OneDrive |
+| Banco de dados | SQLite (portavel, funciona no Google Drive) | Google Drive |
 | Versionamento | GitHub (repo PRIVADO) | Nuvem GitHub |
 | Análise exploratória | Jupyter Notebooks | Colab |
 | APIs científicas | PubMed, Semantic Scholar, Unpaywall, DrugBank, ChEMBL | Gratuitas |
@@ -27,8 +27,9 @@ Construir um sistema computacional que cruza dados proteômicos de envelheciment
 
 - **Máquina local:** i5-1135G7, 24GB RAM, 18GB disco livre — NÃO sobrecarregar
 - Processamento pesado SEMPRE no Google Colab
-- Dados SEMPRE no OneDrive (nunca acumular no disco C:)
-- Scripts locais devem ser leves (chamadas API, orquestração)
+- Dados SEMPRE no Google Drive (nunca acumular no disco C:)
+- Scripts locais devem ser leves (chamadas API, orquestracao)
+- No Colab, dados ficam em /content/drive/MyDrive/Discovery_Engine/
 
 ## Regras Específicas do Projeto
 
@@ -90,7 +91,7 @@ Discovery_Engine/
 
 ```bash
 # Abrir o projeto
-cd "C:\Users\tercio.azevedo\OneDrive\Discovery_Engine" && claude
+cd "G:\Meu Drive\Discovery_Engine" && claude
 
 # Retomar sessão
 "Retome o projeto. Leia STATE.md, DECISIONS.md e BACKLOG.md."

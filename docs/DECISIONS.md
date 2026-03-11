@@ -56,3 +56,18 @@
   3. Arquivo único SESSION_LOG → cresce infinitamente, perde foco
 - **Motivo:** Separa responsabilidades (estado vs. decisões vs. backlog), preserva raciocínio, evita re-debates
 - **Reversível?** Sim, mas não há razão para reverter
+
+## DEC-006: Migrar armazenamento de OneDrive para Google Drive (2026-03-10)
+
+- **Decisão:** Migrar projeto Discovery Engine do OneDrive para Google Drive (G:\Meu Drive\Discovery_Engine)
+- **Referência:** Revisa DEC-002 (infraestrutura)
+- **Alternativas descartadas:**
+  1. Manter no OneDrive → Colab nao conecta nativamente ao OneDrive, teria que transferir arquivos entre nuvens
+  2. Usar ambos (OneDrive + Drive) → complexidade desnecessaria, risco de dessincronizacao
+- **Motivo:** Google Drive monta nativamente no Colab (2 linhas de codigo). Tercio tem 2 TB no Google Drive (1.35 TB livres). Elimina friccao entre armazenamento e processamento.
+- **Novo layout:**
+  - Google Drive (G:\Meu Drive\Discovery_Engine) = projeto, dados, papers, outputs
+  - No Colab: /content/drive/MyDrive/Discovery_Engine
+  - GitHub = codigo versionado
+  - OneDrive = outros projetos (ERP, Fretes, etc.) — nao mais usado para Discovery Engine
+- **Reversível?** Sim, copia do projeto permanece no OneDrive como backup

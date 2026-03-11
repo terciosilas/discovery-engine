@@ -1,73 +1,73 @@
-# Backlog — Discovery Engine
+# Backlog -- Discovery Engine
 
-> Priorizado por fase. Itens dentro de cada fase em ordem de execução.
-> Status: [ ] pendente | [~] em andamento | [x] concluído | [-] descartado
+> Priorizado por fase. Itens dentro de cada fase em ordem de execucao.
+> Status: [ ] pendente | [~] em andamento | [x] concluido | [-] descartado
 
 ---
 
-## Fase 0 — Fundação
+## Fase 0 -- Fundacao
 
 - [x] Definir tema e abordagem
 - [x] Definir infraestrutura
-- [x] Definir governança e ética
+- [x] Definir governanca e etica
 - [x] Criar estrutura de pastas
 - [x] Criar documentos fundacionais (CLAUDE.md, STATE, DECISIONS, BACKLOG, PMO)
-- [ ] Configurar Google Colab (tutorial para Tércio)
-- [ ] Criar repo privado no GitHub (`discovery-engine`)
-- [ ] Configurar `.gitignore` e `.env.example`
-- [ ] Criar `src/core/bibliography.py` (gestão BibTeX + licenças + DOI)
-- [ ] Criar `src/core/audit.py` (log de auditoria append-only)
-- [ ] Criar `src/core/integrity.py` (SHA-256 de arquivos)
-- [ ] Criar `ethics/DECLARACAO_USO_IA.md`
-- [ ] Criar `ethics/DECLARACAO_FONTES.md`
-- [ ] Criar `config/search_queries.yaml` (queries iniciais)
-- [ ] Criar `config/inclusion_criteria.yaml` (critérios de seleção)
+- [~] Configurar Google Colab (Tercio em andamento)
+- [x] Criar repo privado no GitHub (`discovery-engine`)
+- [x] Configurar `.gitignore` e `.env.example`
+- [x] Criar `src/core/bibliography.py` (gestao BibTeX + licencas + DOI)
+- [x] Criar `src/core/audit.py` (log de auditoria append-only)
+- [x] Criar `src/core/integrity.py` (SHA-256 de arquivos)
+- [x] Criar `ethics/DECLARACAO_USO_IA.md`
+- [x] Criar `ethics/DECLARACAO_FONTES.md`
+- [x] Criar `config/search_queries.yaml` (queries iniciais)
+- [x] Criar `config/inclusion_criteria.yaml` (criterios de selecao)
 
-## Fase 1 — Ingestão e Mapeamento
+## Fase 1 -- Ingestao e Mapeamento
 
 - [ ] Construir `src/ingestion/pubmed.py` (API E-utilities do PubMed)
 - [ ] Construir `src/ingestion/semantic_scholar.py` (API Semantic Scholar)
-- [ ] Construir `src/ingestion/unpaywall.py` (verificação de licença)
+- [ ] Construir `src/ingestion/unpaywall.py` (verificacao de licenca)
 - [ ] Construir `src/ingestion/drugbank.py` (dados de medicamentos)
-- [ ] Construir `src/ingestion/chembl.py` (atividade biológica)
+- [ ] Construir `src/ingestion/chembl.py` (atividade biologica)
 - [ ] Primeira busca: top 500 papers "proteomics aging longevity" (2020-2026)
 - [ ] Primeira busca: top 500 papers "drug repurposing aging" (2020-2026)
-- [ ] Gerar mapa de conceitos (grafo de termos/proteínas/drogas)
+- [ ] Gerar mapa de conceitos (grafo de termos/proteinas/drogas)
 - [ ] Identificar gaps na literatura
-- [ ] Relatório Fase 1: "Mapa do Terreno"
+- [ ] Relatorio Fase 1: "Mapa do Terreno"
 
-## Fase 2 — Análise e Cruzamento
+## Fase 2 -- Analise e Cruzamento
 
-- [ ] Carregar datasets públicos (GenAge, DrugAge, HALL, ChEMBL)
-- [ ] Construir grafo de conhecimento: proteína ↔ doença ↔ droga ↔ alvo
-- [ ] Identificar proteínas-chave do envelhecimento (Klotho, FOXO3, sirtuinas, etc.)
-- [ ] Cruzar proteínas-alvo com bases de medicamentos existentes
+- [ ] Carregar datasets publicos (GenAge, DrugAge, HALL, ChEMBL)
+- [ ] Construir grafo de conhecimento: proteina <-> doenca <-> droga <-> alvo
+- [ ] Identificar proteinas-chave do envelhecimento (Klotho, FOXO3, sirtuinas, etc.)
+- [ ] Cruzar proteinas-alvo com bases de medicamentos existentes
 - [ ] Aplicar ML para ranquear candidatos a geroprotetores
-- [ ] Validação estatística dos candidatos
-- [ ] Relatório Fase 2: "Candidatos Identificados"
+- [ ] Validacao estatistica dos candidatos
+- [ ] Relatorio Fase 2: "Candidatos Identificados"
 
-## Fase 3 — Validação Computacional
+## Fase 3 -- Validacao Computacional
 
-- [ ] Validação cruzada com literatura existente
-- [ ] Análise de segurança dos candidatos (efeitos adversos conhecidos)
-- [ ] Modelagem de interações proteína-droga (docking computacional se viável)
-- [ ] Comparação com resultados de ensaios clínicos existentes
-- [ ] Análise de reprodutibilidade (bootstrap, cross-validation)
-- [ ] Relatório Fase 3: "Validação e Confiança"
+- [ ] Validacao cruzada com literatura existente
+- [ ] Analise de seguranca dos candidatos (efeitos adversos conhecidos)
+- [ ] Modelagem de interacoes proteina-droga (docking computacional se viavel)
+- [ ] Comparacao com resultados de ensaios clinicos existentes
+- [ ] Analise de reprodutibilidade (bootstrap, cross-validation)
+- [ ] Relatorio Fase 3: "Validacao e Confianca"
 
-## Fase 4 — Publicação
+## Fase 4 -- Publicacao
 
-- [ ] Revisão bibliográfica formal (formato journal)
-- [ ] Escrever paper no formato IMRaD (Introdução, Métodos, Resultados, Discussão)
-- [ ] Gerar figuras e tabelas de qualidade para publicação
-- [ ] Preparar material suplementar (código, dados, queries)
+- [ ] Revisao bibliografica formal (formato journal)
+- [ ] Escrever paper no formato IMRaD (Introducao, Metodos, Resultados, Discussao)
+- [ ] Gerar figuras e tabelas de qualidade para publicacao
+- [ ] Preparar material suplementar (codigo, dados, queries)
 - [ ] Submeter preprint (bioRxiv ou medRxiv)
 - [ ] Identificar journals-alvo e submeter
-- [ ] Responder revisões dos pareceristas
+- [ ] Responder revisoes dos pareceristas
 
-## Fase 5 — Extensão (futuro)
+## Fase 5 -- Extensao (futuro)
 
-- [ ] Expandir análise para novos datasets
-- [ ] Colaboração com laboratórios para validação experimental
-- [ ] Apresentação em conferências
-- [ ] Novas publicações derivadas
+- [ ] Expandir analise para novos datasets
+- [ ] Colaboracao com laboratorios para validacao experimental
+- [ ] Apresentacao em conferencias
+- [ ] Novas publicacoes derivadas
