@@ -65,10 +65,9 @@ controles:
   positivos:
     descricao: "Papers conhecidos que DEVEM aparecer nos resultados"
     papers:
-      - doi: "10.1038/s41586-023-06264-9"
-        descricao: "Nature 2023 - Proteomica do envelhecimento no UK Biobank"
-      - doi: "10.1126/science.abe8455"
-        descricao: "Science 2021 - Plasma proteomics e envelhecimento"
+      - doi: "10.1038/s41591-019-0673-2"
+        descricao: "Nature Medicine 2019 - Undulating changes in human plasma proteome (Lehallier)"
+        status: "ENCONTRADO no acervo"
   negativos:
     descricao: "Termos que NAO devem dominar os resultados"
     termos:
