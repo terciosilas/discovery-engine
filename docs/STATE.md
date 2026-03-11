@@ -1,6 +1,6 @@
 # Estado do Projeto -- Discovery Engine
 
-> Ultima atualizacao: 2026-03-11 (Sessao #8)
+> Ultima atualizacao: 2026-03-11 (Sessao #9)
 
 ## Fase Atual
 
@@ -8,9 +8,20 @@
 **Fase 1 -- Ingestao e Mapeamento (100%)**
 **Fase 2 -- Analise e Cruzamento (95%)** -- T-048 (visualizacao grafo) pendente
 **Fase 3 -- Validacao Computacional (100%)** -- T-056/T-062 descartados
-**Fase 4 -- Publicacao (95%)** << EM ANDAMENTO
+**Fase 4 -- Publicacao (100%)** << PRONTO PARA SUBMISSAO
 
 ## O que foi feito
+
+### Sessao #9 (2026-03-11)
+- **T-079: Submissao GeroScience preparada:**
+  - `submission/editorial_manager_upload_order.md` -- ordem de upload dos 16 arquivos com tamanhos e categorias
+  - `submission/editorial_manager_metadata.md` -- todos os campos para copiar no Editorial Manager (titulo, short title, abstract, keywords, declaracoes)
+  - `submission/suggested_reviewers.md` -- 4 revisores com emails institucionais verificados e justificativas
+  - Revisores: de Magalhaes (Birmingham), Zhavoronkov (Insilico), Seluanov (Rochester), Barzilai (Einstein)
+  - Nenhum revisor a evitar (sem conflitos identificados)
+  - Email corrigido em 11 arquivos: tercio@callamarys.com.br -> terciosilas@gmail.com
+  - DOCX regenerados com email correto
+  - **Projeto PRONTO para submissao.** Falta apenas upload manual pelo operador.
 
 ### Sessao #8 (2026-03-11)
 - **T-078: Preprint bioRxiv preparado:**
@@ -106,35 +117,33 @@
 
 ## Raciocinio em andamento
 
-- **Fase 4 avancou para ~85%.** Interpretacao mecanistica completa a narrativa cientifica.
-- **Paper agora tem 5 linhas de evidencia independentes:**
+- **Fase 4 COMPLETA (100%).** Todo o trabalho computacional e de preparacao esta finalizado.
+- **Paper tem 5 linhas de evidencia independentes:**
   1. Pathway enrichment (11/11 categorias aging, p=1.27e-20)
   2. Benchmark (EF=8.1x, unico modelo com recall+predicao)
   3. Validacao externa DrugAge (EF@20=4.42x, Mann-Whitney p=1.59e-03)
   4. Descobertas genuinas (bezafibrate, pictilisib confirmados)
   5. Interpretacao mecanistica (8/8 hallmarks, 3 eixos convergentes)
-- **Paper e cientificamente completo.** Falta apenas revisao humana e decisoes de publicacao.
-- **Faltam apenas decisoes do operador:**
+- **Todas as tarefas computacionais concluidas:**
   - ~~T-074: Tornar repo GitHub publico~~ -- FEITO
-  - ~~T-075: Publicar dados no Zenodo~~ -- PREPARADO (falta ativar integracao manual)
-  - ~~T-077: Formatar para GeroScience~~ -- FEITO (submission package pronto)
-  - T-078: Submeter preprint (requer aprovacao)
-  - T-079: Submeter ao journal (requer aprovacao)
+  - ~~T-075: Publicar dados no Zenodo~~ -- PREPARADO
+  - ~~T-077: Formatar para GeroScience~~ -- FEITO
+  - ~~T-078: Preparar preprint bioRxiv~~ -- FEITO
+  - ~~T-079: Preparar submissao GeroScience~~ -- FEITO
+- **Restam apenas acoes manuais do operador** (ver abaixo).
 
 ## Bloqueios atuais
 
-- **T-075:** Zenodo preparado, falta ativar integracao manual (zenodo.org > Settings > GitHub)
-- **T-077:** ~~Requer escolha final do journal-alvo~~ -- GeroScience, submission package pronto
-- **T-078/T-079:** Requer aprovacao do operador para submissao
-## Proximo passo concreto
+Nenhum bloqueio tecnico. Apenas acoes manuais pendentes.
 
-1. ~~Atualizar PAPER_DRAFT_v1.md~~ -- FEITO
-2. ~~T-074: Tornar repo publico~~ -- FEITO
-3. ~~T-075: Zenodo preparado~~ -- release v1.0 criada, checklist em publication/
-4. **Ativar integracao Zenodo-GitHub** -- manual: zenodo.org > Settings > GitHub
-5. **Revisao humana do paper atualizado** -- operador revisa conteudo cientifico
-6. ~~T-077: Formatar para GeroScience~~ -- FEITO (submission/ pronto)
-7. **Submeter ao GeroScience** -- converter MD->DOCX, upload via Editorial Manager
+## Proximo passo concreto (acoes manuais do operador)
+
+1. **Criar ORCID** (se nao tiver): https://orcid.org/register
+2. **Ativar integracao Zenodo-GitHub:** zenodo.org > Settings > GitHub > Flip switch > Publicar release
+3. **Atualizar DOI Zenodo** no manuscrito (substituir placeholder XXXXXXX)
+4. **Submeter ao bioRxiv:** https://submit.biorxiv.org/ (seguir `submission/biorxiv_submission_checklist.md`)
+5. **Submeter ao GeroScience:** https://www.editorialmanager.com/jaaa/ (seguir `submission/editorial_manager_upload_order.md`)
+6. **Anotar numeros de submissao** (bioRxiv DOI + Editorial Manager #)
 
 ## Contexto tecnico ativo
 
