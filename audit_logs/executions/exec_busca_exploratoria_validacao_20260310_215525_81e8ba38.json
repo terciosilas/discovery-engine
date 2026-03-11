@@ -1,0 +1,22 @@
+{
+  "execution_id": "81e8ba38-0a65-4cf0-b1df-b7bc78f797e9",
+  "modulo": "busca_exploratoria_validacao",
+  "timestamp_inicio": "2026-03-11T00:55:14.088180+00:00",
+  "timestamp_fim": "2026-03-11T00:55:25.657893+00:00",
+  "operador": "tercio.silas",
+  "versao_codigo": "cc4fb7c89101cb1d6ea1e9f1ed070b09e5bdd903",
+  "arquivos_input": [],
+  "arquivos_output": [],
+  "registros_lidos": 20,
+  "registros_validos": 20,
+  "registros_processados": 20,
+  "registros_rejeitados": 0,
+  "anomalias": [],
+  "status": "SUCESSO",
+  "erro": null,
+  "metadados": {
+    "query": "proteomics aging longevity",
+    "fonte": "pubmed",
+    "licencas_verificadas": 20
+  }
+}
